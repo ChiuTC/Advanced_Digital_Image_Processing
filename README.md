@@ -510,11 +510,53 @@ OpenCV version: 4.6.0 (Most of the code does't use OpenCV, only use c/c++ to imp
 #### local histogram equalizaion
 ![house_512_HistogramEqu](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/2c2bc559-66b5-4b4d-b53f-fc7fead27d6c)
 
+## ADIP_6 result:
+
+### 6.1
+### Use Morphology to remove noise and then repair letters that have been unintentionally damaged by denoising.
+#### original image 
+![words_512_1](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/9d73e5d0-52e4-4617-82f3-798785b313c3)
+#### use Morphology to remove noise 
+![words_512_morph](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/a793cdb9-ff80-4a14-9be6-1f51e35ebf33)
 
 
+### 6.2.1
+### Use SE_5x5 as structure element to perform four morphological operations separately on grayscale image check_613x237.raw.
+#### original image 
+![check_613x237_1](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/25bc92c3-0acb-488a-8ef4-be6b87589a22)
+#### erosion
+![check_613x237_erode](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/7a4f0ad1-494b-4d1a-9e78-bf9d6557b12f)
+#### dilation
+![check_613x237_dilate](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/d6e142ce-a919-4500-86d7-1065d24b8dd5)
+#### opening
+![check_613x237_opening](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/d805d68b-dcf0-4a94-918a-3a88f4f8f0f2)
+#### closing
+![check_613x237_closing](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/c33c4797-e404-4200-8a24-f60d58b0fde9)
 
+### 6.2.2
+### As in (1), but first rotate structure SE_5x5 by 90。，and use it in erosion and dilation separately.
+#### original image 
+![check_613x237_1](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/25bc92c3-0acb-488a-8ef4-be6b87589a22)
+#### erosion
+![check_613x237_erode_rotate](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/4db2357d-f6c9-4fdc-aefa-7c9e5561ffe9)
+#### dilation
+![check_613x237_dilate_rotate](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/b561ff35-55b5-4c95-b302-1e09a70d308c)
 
+### 6.3
+### Use morphology to generate a trimap image for an output like Trimap_example
+#### original image 
+![monster_600_1](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/cf5c9d2b-f5e2-4ecd-9776-d6d9d0fab748)
+#### trimap
+![monster_600_trimap](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/ccd43500-a920-49e6-8953-62ee23db3aad)
 
+### 6.4
+### Use morphology to repair damaged roads, and then extract and thin the roads to calculate steps of the shortest path from start point to end point.
+#### original image 
+![map_512_1](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/8c5e69df-d047-48fd-bbdb-3281f8fe85cb)
+#### Use morphology to repair damaged roads
+![map_512_repair](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/835e8070-9cef-4a67-b3ad-928fbec65ad5)
+#### calculate steps
+![map_512_path](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/62515910-5c17-4e35-a15f-4c7c83224ce0)
 
 
 
