@@ -1,6 +1,8 @@
 # Advanced_Digital_Image_Processing  
 The implementation code for an assignment in the image processing algorithm course, and the resulting image is shown below
-
+environment:
+visual studion 2022
+OpenCV version: 4.6.0
 ## ADIP_1 result:
 
 ### 1.2.a 
