@@ -350,26 +350,25 @@ OpenCV version: 4.6.0 (Most of the code does't use OpenCV, only use c/c++ to imp
 #### my own DFT subroutine
 ![rhombus_256_mydft](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/96bf7c4e-955f-4e15-ba61-1b8ffcb19801)
 #### original image 
-![sine_128_1](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/6c06e1c5-77bb-4a28-bbaa-09c37d826416)
-#### my own DFT subroutine
-![sine_128_mydft](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/e7bd6830-563a-4863-8926-c3e4d3d2874a)
-#### original image 
 ![lena_256_1](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/bc965bb3-f3f5-4afe-ae39-f018be97a469)
 #### my own DFT subroutine
 ![lena_256_mydft](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/a3dcf65a-b958-498f-9524-e778a730d03e)
-
+#### original image 
+![sine_128_1](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/6c06e1c5-77bb-4a28-bbaa-09c37d826416)
+#### my own DFT subroutine
+![sine_128_mydft](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/e7bd6830-563a-4863-8926-c3e4d3d2874a)
 
 ### 5.1.2
 ### Compare the output of Problem(1) with the output of the built-in DFT function on OpenCV. 
 
 #### my own DFT subroutine
 ![rhombus_256_mydft](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/96bf7c4e-955f-4e15-ba61-1b8ffcb19801)
-![sine_128_mydft](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/e7bd6830-563a-4863-8926-c3e4d3d2874a)
 ![lena_256_mydft](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/a3dcf65a-b958-498f-9524-e778a730d03e)
+![sine_128_mydft](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/e7bd6830-563a-4863-8926-c3e4d3d2874a)
 #### Built-in DFT function on OpenCV
 ![rhombus_256_mat_dft](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/17fbab86-3e05-461c-a48a-aec4ced43fb0)
-![sine_128_mat_dft](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/0e84a911-580a-4075-b33a-63291fd485fa)
 ![lena_256_mat_dft](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/8c21fc72-2e26-4360-8d4b-e6959ada3f0b)
+![sine_128_mat_dft](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/0e84a911-580a-4075-b33a-63291fd485fa)
 
 ### 5.1.3
 ### Write my own IDFT subroutine and test it on DFT output in Problem 1.(1), show the images and compute the MSE between original images without transformation and the images that has been transformed by DFT+IDFT.
