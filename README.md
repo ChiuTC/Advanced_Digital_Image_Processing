@@ -7,7 +7,7 @@ OpenCV version: 4.6.0 (Most of the code does't use OpenCV, only use c/c++ to imp
 
 ### 1.2.a 
 #### Read the raw image
-![lena256_out_1](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/cc0ab9b7-6c50-47d4-8c4a-b7af1889774c)
+![lena256_out_1](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/cc0ab9b7-6c50-47d4-8c4a-b7af1889774c)
 ### 1.2.b
 #### Read the raw image (opencv)
 ![lena256out_opencv_1](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/ed14f09b-a255-4b45-ae63-27f60f4a2c24)
