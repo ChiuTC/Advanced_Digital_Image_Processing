@@ -33,7 +33,7 @@ OpenCV version: 4.6.0 (Most of the code does't use OpenCV, only use c/c++ to imp
 ### 2.1.2
 ### Calculate the MSE and PSNR between blurred image and original image.
 #### original image
-![lena256_1](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/bfa0c578-c559-48ba-9de5-9e223e756b1b)
+![lena256_1](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/da610e58-112c-40a1-b43e-a381523ebe72)
 #### blur 50
 ![lena256_blur_50](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/7b66879a-0bc0-4367-9115-ecb06d068ec8)
 #### blur 100
@@ -77,7 +77,7 @@ OpenCV version: 4.6.0 (Most of the code does't use OpenCV, only use c/c++ to imp
 ### 2.2.3
 ### Use bilinear and bicubic algorithms to zoom in the part from (177,108) to (276,249) in duck900x600.
 #### original image
-![duck900x660_1](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/f4bf7bae-c69d-4824-b912-326b6276e217)
+![duck900x660_1](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/605a9aae-3362-404e-a02d-a1ad60080328)
 #### bilinear
 ![duck_zoom_in_bilinear](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/eeef9601-8991-4edf-861b-d7fb586ab31b)
 #### bicubic
@@ -104,35 +104,13 @@ OpenCV version: 4.6.0 (Most of the code does't use OpenCV, only use c/c++ to imp
 ### 2.4
 ### Find out the solutions from start (0,14) to end (34,93) using D4, D8 and Dm distance on map100x100.
 #### map100x100
-![map100x100_1](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/c8a3dce3-d6f7-4c14-88f7-aa35a6987dde)
+![map100x100_1](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/380397a3-0c3d-46be-92b8-27cca8a873ec)
 ####  D4
 ![map_D4](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/3891c5d0-4ea2-4f41-8e00-c2168b17da41)
 #### D8
 ![map_D8](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/b14b4316-db96-45ac-a96b-fbab74445da4)
 #### Dm
 ![map_Dm](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/57fe7a14-fb7b-421a-9fc8-1aa6433d7f1a)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -248,6 +226,56 @@ OpenCV version: 4.6.0 (Most of the code does't use OpenCV, only use c/c++ to imp
 ![histogram_of_cat_512_match_catch_cat](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/94410181-cdfd-48fa-a346-44898928f564)
 ####  histogram of histogram matched image (using traffic_970x646)
 ![histogram_of_cat_512_match_traffic](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/93870a6b-7d8a-48fa-afa7-bc4b472b2347)
+
+![meerkat_high_contrast_piecewise_linear](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/9da57bfd-0f6e-44db-a038-fb59f89c3368)
+![meerkat_high_contrast_hist_equal](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/17ce7c6e-4ac6-4dc7-b2ae-fac15a672c92)
+![meerkat_high_contrast_800x600](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/f781fb98-444e-4592-89ab-8eccc46608ed)
+![meerkat_high_contrast_1_04](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/a284e063-7092-4078-95ea-bb9e4c521dd8)
+![meerkat_high_contrast_0_97](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/775ffebf-24fa-4148-bda6-31dc41f6a165)
+![meerkat_dark_piecewise_linear](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/1d0b18f6-7c0a-4603-a4dd-49dfb83e85a1)
+![meerkat_dark_hist_equal](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/a92f28bd-9463-4278-a60b-b93e659c13c6)
+![meerkat_dark_800x600](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/46582643-8d9c-4cc2-94c1-568d77ff50b8)
+![meerkat_dark_1_25](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/5dccef5d-5f1e-45e7-8b9f-ad60ef284d36)
+![meerkat_dark_1_17](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/1207512f-82eb-4177-b342-360f17c78cd4)
+![meerkat_bright_piecewise_linear](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/0f77b662-a32b-4f86-965d-008e0bf90791)
+![meerkat_bright_hist_equal](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/b8145b8e-7a2d-4a54-bfe3-487e22b6562a)
+![meerkat_bright_800x600](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/32a0a097-b3e7-4f39-a037-374728e3a2c4)
+![meerkat_bright_3_5](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/7f397846-332d-484b-a574-43cade32d3ca)
+![meerkat_bright_2_5](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/98538dad-4634-48df-b111-0dc10268dd9d)
+![LSB_bit_plane](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/e76366e4-b01d-4504-8dcc-823c1d918e8a)
+![JackieChen_512_binary](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/5dfd7e1c-b7e5-433e-8ea0-681c26b13beb)
+![histogram_of_traffic_970x646](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/18705ba5-9d5c-4411-8497-ad5199cb3c1f)
+![histogram_of_meerkat_high_contrast](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/56c3f0e8-3c0e-4cdd-aef8-9ca3c02b2b9f)
+![histogram_of_meerkat_dark](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/d9443193-a956-4f77-9aaa-75b044d3576b)
+![histogram_of_meerkat_bright](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/d293520e-bc4f-47ca-852f-9f192ddc8e74)
+![histogram_of_catch_300x168](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/0e36c746-3f1a-4348-870d-8b4e6821c082)
+![histogram_of_cat_512_match_traffic](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/ffa31820-56e4-41a1-ba3d-27eea115cdec)
+![histogram_of_cat_512_match_catch_cat](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/f25ab360-7274-4956-873a-ba1a951863b6)
+![histogram_of_cat_512](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/99e185f5-03a5-4059-bbbd-79d8bff2ab69)
+![histogram_of meerkat_high_contrast_equal](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/eb2e2835-bdff-461f-815a-2c60d757c668)
+![histogram_of meerkat_dark_equal](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/9b600c48-3c44-46dd-8fdc-7f96d810e369)
+![histogram_of meerkat_bright_equal](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/7639e21e-810a-4986-bfab-c5e7fce7a6fc)
+![cat_512_synthesize_with_JackieChen](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/add96a71-5015-4618-8cd3-97e905ce9177)
+![cat_512_synthesize](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/772dcfc8-2dc0-467d-a6ae-8f526bbe5ffe)
+![cat_512_out](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/d0fac0a6-96da-4aab-90bd-cfb63a5b0be6)
+![cat_512_match_traffic](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/2a533d12-0436-40aa-9b36-0552a2e760ec)
+![cat_512_match_catch_cat](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/7b35ccc4-fe4c-4b65-a537-5510f919b24a)
+![cat_512_equal](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/ce736805-1d61-433f-b2d3-1833e298e087)
+![cat_512_7](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/84366bf3-3a68-4618-af25-4f443a26fff5)
+![cat_512_6](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/49b82519-6be9-4cf8-9d50-c4bbb7b1744e)
+![cat_512_5](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/3ba1e114-484d-4861-af4f-ea13f7ef91ed)
+![cat_512_4](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/472d98a5-faae-410a-8417-e5e1800dd607)
+![cat_512_3](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/601065f5-456a-47e4-bcb8-f03cf642004e)
+![cat_512_2](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/8ca9e98b-e705-45dd-a01a-5963a410321f)
+![cat_512_1](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/903f4788-4e4d-446f-857c-00044ebb7203)
+![cat_512_0](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/fcb8d3db-fe4c-43cf-8e99-97df7259e6d2)
+![traffic_970x646_equal](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/45047a5a-a970-41cd-916f-b9544a42470c)
+
+
+
+
+
+
 
 ## ADIP_4 result:
 ### 4.1.1
@@ -367,6 +395,15 @@ OpenCV version: 4.6.0 (Most of the code does't use OpenCV, only use c/c++ to imp
 ![histogram of tsukuba_683x512_5](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/16280864-6650-49c6-92f1-a5e9412cffca)
 #### Histogram of image (mask size: 7x7)
 ![histogram of tsukuba_683x512_7](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/4315081e-a814-4b3e-aa5b-b0b56cf2753e)
+
+
+
+
+
+
+
+
+
 
 ## ADIP_5 result:
 
