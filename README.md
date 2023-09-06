@@ -260,7 +260,7 @@ OpenCV version: 4.6.0 (Most of the code does't use OpenCV, only use c/c++ to imp
 ![roof_640x427_noise_Lapalacian8_ad_hoc](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/8f84b8b1-20c6-4855-b1e8-fcffa79d4ea1)
 ##### zero padding
 ![roof_640x427_Lapalacian8_zero_padding](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/916b3c79-588f-4deb-9b70-5d8892b17b74)
-![roof_640x427_noise_Lapalacian8_zero_padding](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/b55550a3-13d2-46a1-a2f1-5e5abbc5f0e6)
+![roof_640x427_noise_Lapalacian8_zero_padding](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/119d0447-78fd-413c-91a8-327a50b8e253)
 ##### replicaiton
 ![roof_640x427_Lapalacian8_replication](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/87914e9e-a691-4303-a52f-3e9783fd7614)
 ![roof_640x427_noise_Lapalacian8_replication](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/6ed0ba12-dee2-4bd0-a80b-829023aa536b)
@@ -362,7 +362,7 @@ OpenCV version: 4.6.0 (Most of the code does't use OpenCV, only use c/c++ to imp
 #### original image 
 ![rhombus_256_1](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/3e9801b7-aec3-4f4e-9dad-6aac92eb6a43)
 #### my own DFT subroutine
-![rhombus_256_mydft](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/96bf7c4e-955f-4e15-ba61-1b8ffcb19801)
+
 #### original image 
 ![lena_256_1](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/bc965bb3-f3f5-4afe-ae39-f018be97a469)
 #### my own DFT subroutine
@@ -429,60 +429,66 @@ OpenCV version: 4.6.0 (Most of the code does't use OpenCV, only use c/c++ to imp
 
 #### Butterworth LPF with D0 = 5,20,50 and n= 1,2,3 respectively.
 ##### D0 = 5, n = 1
-![raccoon_512_LPF_5_1](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/4eacdd2f-393d-4812-a542-bebf7db881b2)
-![raccoon_512_LPF_mag_5_1](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/4b28beea-aa35-40db-b285-28adab8d6009)
+![raccoon_512_LPF_5_1](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/d153df47-b986-4e1d-b539-df940faab60d)
+![raccoon_512_LPF_mag_5_1](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/370bddb3-1316-4abe-baf3-35225c5cd0ce)
 ##### D0 = 5, n = 2
-![raccoon_512_LPF_5_2](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/d839b056-9946-466f-b6da-5a9e016a7566)
-![raccoon_512_LPF_mag_5_2](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/9b85577e-64d0-4b6f-bd29-119536db896c)
+![raccoon_512_LPF_5_2](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/c07bc040-6aae-4088-81fb-e832cf26144e)
+![raccoon_512_LPF_mag_5_2](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/720c73cf-302d-4acb-a1e4-d8980e259f49)
 ##### D0 = 5, n = 3
-![raccoon_512_LPF_5_3](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/17f91ad7-4764-4dce-9967-4c4d6c6d6e90)
-![raccoon_512_LPF_mag_5_3](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/86518467-ccaf-415f-9dec-c3c1032fd3d0)
+![raccoon_512_LPF_5_3](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/13673a8b-a049-446f-a0bb-5f74d48b5674)
+![raccoon_512_LPF_mag_5_3](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/5512692d-3c4f-4ca1-9d74-789f32eadd19)
 ##### D0 = 20, n = 1
-![raccoon_512_LPF_20_1](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/ef5b530d-5099-46e8-81f9-1b45c3cf1941)
-![raccoon_512_LPF_mag_20_1](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/cf188b64-42a2-4b70-920c-4f618d89c7da)
+![raccoon_512_LPF_20_1](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/be169ff9-ce05-4c56-ab9c-40b525436950)
+![raccoon_512_LPF_mag_20_1](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/62453037-029e-4a81-a407-2ac264d4021d)
 ##### D0 = 20, n = 2
-![raccoon_512_LPF_20_2](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/a1c4cf6d-e44a-43cc-8491-4cd40a3e7250)
-![raccoon_512_LPF_mag_20_2](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/ab7963e6-28a7-43d7-b34c-cb1d34c34f80)
+![raccoon_512_LPF_20_2](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/ab707763-0cc0-4c37-a419-382e7700fa93)
+![raccoon_512_LPF_mag_20_2](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/cb8fc2cd-1f83-44a1-a704-599b05992e30)
 ##### D0 = 20, n = 3
-![raccoon_512_LPF_20_3](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/4e763dcd-5f78-4f22-a2b4-97a2a4c39f2f)
-![raccoon_512_LPF_mag_20_3](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/3949fe02-c7dc-4587-95ab-fc5a6075d5f2)
+![raccoon_512_LPF_20_3](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/fd004e48-7191-4225-8452-d549269a943d)
+![raccoon_512_LPF_mag_20_3](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/994a072d-73b2-4a7a-8e1f-a2d93f2bbff1)
 ##### D0 = 50, n = 1
-![raccoon_512_LPF_50_1](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/1b6afd00-e05d-43bf-af82-cbe565bcd8e5)
-![raccoon_512_LPF_mag_50_1](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/d2868eaa-1f1d-4952-8df5-e6ab94ea7048)
+![raccoon_512_LPF_50_1](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/95dbf9a7-516d-4a71-959c-1efa1d3b9e14)
+![raccoon_512_LPF_mag_50_1](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/c1ac760a-3767-479e-b204-69e84f297aae)
 ##### D0 = 50, n = 2
-![raccoon_512_LPF_50_2](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/39647d15-6052-41e6-a2b8-6a4db6f3b5df)
-![raccoon_512_LPF_mag_50_2](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/ff61fa83-fe48-454e-ad35-185ddd7688bc)
+![raccoon_512_LPF_50_2](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/92bce4d8-87fe-4ba3-b9f7-7b8559326a89)
+![raccoon_512_LPF_mag_50_2](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/4d1a5164-25fe-4869-b1f2-0d229384ecf3)
 ##### D0 = 50, n = 3
-![raccoon_512_LPF_50_3](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/7d1a420a-d204-45f9-823b-670281645666)
-![raccoon_512_LPF_mag_50_3](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/c34062e2-51d5-41a2-9433-3ecd25287072)
+![raccoon_512_LPF_50_3](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/02a360e1-da9c-4115-8c05-4d2ef9b442cf)
+![raccoon_512_LPF_mag_50_3](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/214a32c8-7cf5-492a-9fa3-9c5464c260eb)
 #### Butterworth HPF with D0 = 5,20,50 and n= 1,2,3 respectively.
 ##### D0 = 5, n = 1
-![raccoon_512_HPF_5_1](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/44e6d1cd-4268-48d9-8a69-ee3faabff148)
-![raccoon_512_HPF_mag_5_1](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/6bd68020-9653-473d-b27d-f6c2069b3bda)
+![raccoon_512_HPF_5_1](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/cfa8a6d5-4cb2-4246-a5f3-c8adf706bebd)
+![raccoon_512_HPF_mag_5_1](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/65a5f93f-5738-41ea-a044-b81e3b57a580)
 ##### D0 = 5, n = 2
-![raccoon_512_HPF_5_2](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/65b2ef09-ce29-4f4b-a9e3-e293fe8a1bf6)
-![raccoon_512_HPF_mag_5_2](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/304e4477-228c-4aca-8378-252618b8e203)
+![raccoon_512_HPF_5_2](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/38122c51-348f-4d0b-9cf5-4333cfdc2ccb)
+![raccoon_512_HPF_mag_5_2](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/00599483-5184-4683-ac7f-f8caeb55115b)
 ##### D0 = 5, n = 3
-![raccoon_512_HPF_5_3](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/fe9fef84-6c6a-4532-affd-82647ad6e566)
-![raccoon_512_HPF_mag_5_3](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/931491eb-f65b-4959-8afe-2707d1e09498)
+![raccoon_512_HPF_5_3](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/86e044a4-9930-4471-9b28-9095fec74457)
+![raccoon_512_HPF_mag_5_3](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/b5cd8134-530b-4c31-8fe0-94090b3df362)
 ##### D0 = 20, n = 1
-![raccoon_512_HPF_20_1](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/24ccef4e-198f-419b-b7eb-b1ebd544a5a6)
-![raccoon_512_HPF_mag_20_1](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/2cc4154b-de8c-4d31-b6cf-3a51f0e955c0)
+![raccoon_512_HPF_20_1](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/f8557047-2367-4a23-9d99-a324467d5a7b)
+![raccoon_512_HPF_mag_20_1](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/122c8c72-a16a-4da9-863f-8fb46a64d928)
 ##### D0 = 20, n = 2
-![raccoon_512_HPF_20_2](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/500ea1b9-4f1f-47f9-8226-5912f0dfa80a)
-![raccoon_512_HPF_mag_20_2](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/7c274b94-b3cb-400a-ad4b-bb7d45ed22d7)
+![raccoon_512_HPF_20_2](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/3a8ae719-2975-431a-a0d8-220878b5713b)
+![raccoon_512_HPF_mag_20_2](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/465f10de-7ba9-48d1-8004-bbca86e24361)
 ##### D0 = 20, n = 3
-![raccoon_512_HPF_20_3](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/53b55f4e-d704-43a4-880b-00fffe68af86)
-![raccoon_512_HPF_mag_20_3](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/43b8f0cd-eee0-4ad4-b680-b20d41ac2b07)
+![raccoon_512_HPF_20_3](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/b7b5ae4d-1953-49ed-865a-5021a86103a2)
+![raccoon_512_HPF_mag_20_3](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/3e4f03de-1173-492c-a193-73962ac8a979)
 ##### D0 = 50, n = 1
-![raccoon_512_HPF_50_1](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/f2499496-8b83-4dd1-85db-164a233bf4e4)
-![raccoon_512_HPF_mag_50_1](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/95517d1e-eac0-4c3a-8752-ff1fae1c45dc)
+![raccoon_512_HPF_50_1](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/2e16f5de-f056-4e36-af74-4f21840ec336)
+![raccoon_512_HPF_mag_50_1](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/bf5b2d13-9509-458d-8fce-e6617f8bb13b)
 ##### D0 = 50, n = 2
-![raccoon_512_HPF_50_2](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/08cce10f-271d-48bb-919d-638666cf050a)
-![raccoon_512_HPF_mag_50_2](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/30efce2f-395d-44f9-88f8-79393b32e2b4)
+![raccoon_512_HPF_50_2](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/5b7680de-e967-4295-a041-0d3a33255d51)
+![raccoon_512_HPF_mag_50_2](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/dd98b38d-0326-45a5-bd00-bde7e284d92f)
 ##### D0 = 50, n = 3
-![raccoon_512_HPF_50_3](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/166399ef-44cc-4882-8542-f0b10ba81b78)
-![raccoon_512_HPF_mag_50_3](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/062416dc-4648-4463-8abb-cf128dc06e54)
+![raccoon_512_HPF_50_3](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/35194395-2849-43c1-a544-a974b0098e50)
+![raccoon_512_HPF_mag_50_3](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/4132fcbe-2ac5-4f52-b6c8-88180b053d06)
+
+
+
+
+
+
 ### 5.2.2
 ### Apply High-Frequency Emphasis Filtering to improve the high-frequency component of owl_blur_512.raw.
 #### original image 
@@ -523,6 +529,13 @@ OpenCV version: 4.6.0 (Most of the code does't use OpenCV, only use c/c++ to imp
 ![house_512_LocalHistogramEqu](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/150abe8a-aedd-482b-96de-df36da4a9079)
 #### local histogram equalizaion
 ![house_512_HistogramEqu](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/2c2bc559-66b5-4b4d-b53f-fc7fead27d6c)
+
+
+
+
+
+
+
 
 ## ADIP_6 result:
 
