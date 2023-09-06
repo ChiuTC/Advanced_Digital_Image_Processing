@@ -120,8 +120,11 @@
 ![cat_512_1](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/fa0e0a11-3374-422c-a70c-5b47d199c6dd)
 ![cat_512_0](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/ab686cf9-032f-4f07-bcba-f6345470210e)  
 ### Replace bit-plane 0 with the output of your Homework 1 Problem 2b, and synthesize them back to 8-bit image.
+#### the output of Homework 1 Problem 2b
 ![JackieChen_512_binary](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/737c6b12-c3ac-4d87-995f-72b44315220f)
+#### Replace bit-plane 0 with the output of Homework 1 Problem 2b
 ![cat_512_synthesize_with_JackieChen](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/4c501daf-4463-400b-a022-bc8a027dfdb6)
+#### check LSB bit plane 
 ![LSB_bit_plane](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/6b8dc7ba-5312-472b-8b06-b797a57b2009)
 ### 3.2.1
 ### Power-Law transformation, use at least two different sets of parameters on each image.
