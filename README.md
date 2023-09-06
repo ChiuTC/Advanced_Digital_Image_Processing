@@ -120,147 +120,6 @@ OpenCV version: 4.6.0 (Most of the code does't use OpenCV, only use c/c++ to imp
 ## ADIP_3 result:
 ### 3.1
 ### Use bit-plane slicing to separate cat_512.raw into eight layers, beginning from bit-plane 7 to bit-plane 0. 
-![cat_512_7](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/d5283bd5-bdb9-42f3-a7d4-b82d258fe26e)
-![cat_512_6](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/670aca96-a6e9-47ba-ac59-0589b19c6ef0)
-![cat_512_5](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/60b7e5ff-75cc-48dc-a1b3-bb24141de9b0)
-![cat_512_4](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/591a19fd-c250-4f7f-aa38-740516d0d106)
-![cat_512_3](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/0bc2e820-865a-4f93-bedb-70c8571dbfd7)
-![cat_512_2](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/b9461bff-f4af-4866-8bf0-992d7105438a)
-![cat_512_1](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/fa0e0a11-3374-422c-a70c-5b47d199c6dd)
-![cat_512_0](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/ab686cf9-032f-4f07-bcba-f6345470210e)  
-### Replace bit-plane 0 with the output of your Homework 1 Problem 2b, and synthesize them back to 8-bit image.
-#### the output of Homework 1 Problem 2b
-![JackieChen_512_binary](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/737c6b12-c3ac-4d87-995f-72b44315220f)
-#### Replace bit-plane 0 with the output of Homework 1 Problem 2b
-![cat_512_synthesize_with_JackieChen](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/4c501daf-4463-400b-a022-bc8a027dfdb6)
-#### check LSB bit plane 
-![LSB_bit_plane](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/6b8dc7ba-5312-472b-8b06-b797a57b2009)
-### 3.2.1
-### Power-Law transformation, use at least two different sets of parameters on each image.
-#### original image
-![meerkat_dark_800x600](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/3853edbe-edf9-42a8-bfa0-bbd6a5401a22)
-#### Power-Law
-![meerkat_dark_1_25](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/ca659e71-eb92-44ad-9b99-5d2fd288d972)
-![meerkat_dark_1_17](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/1cc1f88f-0d3f-4e48-85cd-888b26e44cdd)
-#### original image
-![meerkat_bright_800x600](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/6defdbe6-5a54-427c-ac8e-13a82caa0cf3)
-#### Power-Law
-![meerkat_bright_3_5](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/be498401-fa8d-468e-b0f2-af3d85e7637f)
-![meerkat_bright_2_5](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/312efcee-1ef6-48b5-a49d-5541daed77f5)
-#### original image
-![meerkat_high_contrast_800x600](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/b623d337-6b6e-4773-9f63-1db2dc61436d)
-#### Power-Law
-![meerkat_high_contrast_1_04](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/77c9f03b-a75e-4bc4-918e-f515b78e5198)
-![meerkat_high_contrast_0_97](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/6a529938-931a-439a-9a28-53cf0943afc0)
-
-### 3.2.2
-### Piecewise-Linear transformation
-#### original image
-![meerkat_dark_800x600](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/3853edbe-edf9-42a8-bfa0-bbd6a5401a22)
-#### Piecewise-Linear
-![meerkat_dark_piecewise_linear](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/62fd8357-0482-4594-a094-3a9686467285)
-#### original image
-![meerkat_bright_800x600](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/6defdbe6-5a54-427c-ac8e-13a82caa0cf3)
-#### Piecewise-Linear
-![meerkat_bright_piecewise_linear](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/c08a1c7b-6d3f-4f68-9689-42231de159fb)
-#### original image
-![meerkat_high_contrast_800x600_1](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/56c3f465-8ba9-4b1c-9fb3-3246708e1135)
-#### Piecewise-Linear
-![meerkat_high_contrast_piecewise_linear](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/b76afefe-8b66-4d08-a016-9c4d4568f0d5)
-
-### 3.3.1
-### Plot the histograms of the three meerkat images
-#### image
-![meerkat_dark_800x600](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/3853edbe-edf9-42a8-bfa0-bbd6a5401a22)
-#### histograms
-![histogram_of meerkat_dark_equal](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/dec46b14-ee06-4e9d-a28f-2795e3519eba)
-#### image
-![meerkat_bright_800x600](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/6defdbe6-5a54-427c-ac8e-13a82caa0cf3)
-#### histograms
-![histogram_of meerkat_bright_equal](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/eae0ec6a-781b-4ae2-8899-6f67ffee4a4b)
-#### image
-![meerkat_high_contrast_800x600_1](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/56c3f465-8ba9-4b1c-9fb3-3246708e1135)
-#### histograms
-![histogram_of meerkat_high_contrast_equal](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/a3277958-6c82-4cb0-a1b7-8134b0533641)
-
-### 3.3.2
-### Apply histogram equalization on the three images in 3.3.1 and plot their equalized histograms and compare the histograms before and after histogram equalization.
-#### dark image
-![meerkat_dark_800x600](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/3853edbe-edf9-42a8-bfa0-bbd6a5401a22)
-#### histogram equalization
-![meerkat_dark_hist_equal](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/d75697f2-3404-4117-90b9-253d2ebac31c)
-#### bright image
-![meerkat_bright_800x600](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/6defdbe6-5a54-427c-ac8e-13a82caa0cf3)
-#### histogram equalization
-![meerkat_bright_hist_equal](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/15e073ed-7135-4fa5-a6ee-0885eba95564)
-#### high contrast image
-![meerkat_high_contrast_800x600_1](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/56c3f465-8ba9-4b1c-9fb3-3246708e1135)
-#### histogram equalization
-![meerkat_high_contrast_hist_equal](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/56cc62ce-7149-4ac6-b469-6354f701af68)
-####  histogram of dark image (after histogram equalization)
-![histogram_of_meerkat_dark](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/fbd23af3-ac7b-4a3e-9b42-3495592a3b0a)
-####  histogram of bright image (after histogram equalization)
-![histogram_of_meerkat_bright](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/d3365b3e-3281-43d4-8be9-85219a485f27)
-####  histogram of high contrast image (after histogram equalization)
-![histogram_of_meerkat_high_contrast](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/b377b58d-cd1c-4404-af01-3b95630a6d5b)
-
-### 3.3.3
-### Show the histogram matched images of cat_512.raw using catch_300x168.raw and traffic_970x646.raw as histogram specifications respectively, compare and analyze the histograms of cat_512.raw before and after matching
-#### cat_512
-![cat_512_out](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/5d8cd685-9dbb-4cf5-b581-342fe8cee293)
-#### catch
-![catch_300x168_1](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/6f93a654-3bb1-432b-8ed8-9e31d3c56721)
-#### traffic
-![traffic_970x646_1](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/d2a78f2b-b0a6-4030-96e1-7eccca90f92a)
-####  histogram matched image (using catch_300x168)
-![cat_512_match_catch_cat](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/28f44587-6629-441c-953e-92b1de627d22)
-####  histogram matched image (using traffic_970x646)
-![cat_512_match_traffic](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/b57c2c51-7568-4537-affc-4afff9f89d2f)
-####  histogram of cat_512
-![histogram_of_cat_512](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/5f2a73da-f051-4c47-96f1-9dbafe6e7aef)
-####  histogram of catch
-![histogram_of_catch_300x168](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/d8bc36b8-bf52-40d9-8e61-af9a8bc355be)
-####  histogram of traffic
-![histogram_of_traffic_970x646](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/ecaf81c6-5161-4ed8-97d0-32b15f25fb94)
-####  histogram of histogram matched image (using catch_300x168)
-![histogram_of_cat_512_match_catch_cat](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/94410181-cdfd-48fa-a346-44898928f564)
-####  histogram of histogram matched image (using traffic_970x646)
-![histogram_of_cat_512_match_traffic](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/93870a6b-7d8a-48fa-afa7-bc4b472b2347)
-
-![meerkat_high_contrast_piecewise_linear](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/9da57bfd-0f6e-44db-a038-fb59f89c3368)
-![meerkat_high_contrast_hist_equal](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/17ce7c6e-4ac6-4dc7-b2ae-fac15a672c92)
-![meerkat_high_contrast_800x600](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/f781fb98-444e-4592-89ab-8eccc46608ed)
-![meerkat_high_contrast_1_04](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/a284e063-7092-4078-95ea-bb9e4c521dd8)
-![meerkat_high_contrast_0_97](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/775ffebf-24fa-4148-bda6-31dc41f6a165)
-![meerkat_dark_piecewise_linear](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/1d0b18f6-7c0a-4603-a4dd-49dfb83e85a1)
-![meerkat_dark_hist_equal](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/a92f28bd-9463-4278-a60b-b93e659c13c6)
-![meerkat_dark_800x600](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/46582643-8d9c-4cc2-94c1-568d77ff50b8)
-![meerkat_dark_1_25](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/5dccef5d-5f1e-45e7-8b9f-ad60ef284d36)
-![meerkat_dark_1_17](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/1207512f-82eb-4177-b342-360f17c78cd4)
-![meerkat_bright_piecewise_linear](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/0f77b662-a32b-4f86-965d-008e0bf90791)
-![meerkat_bright_hist_equal](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/b8145b8e-7a2d-4a54-bfe3-487e22b6562a)
-![meerkat_bright_800x600](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/32a0a097-b3e7-4f39-a037-374728e3a2c4)
-![meerkat_bright_3_5](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/7f397846-332d-484b-a574-43cade32d3ca)
-![meerkat_bright_2_5](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/98538dad-4634-48df-b111-0dc10268dd9d)
-![LSB_bit_plane](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/e76366e4-b01d-4504-8dcc-823c1d918e8a)
-![JackieChen_512_binary](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/5dfd7e1c-b7e5-433e-8ea0-681c26b13beb)
-![histogram_of_traffic_970x646](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/18705ba5-9d5c-4411-8497-ad5199cb3c1f)
-![histogram_of_meerkat_high_contrast](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/56c3f0e8-3c0e-4cdd-aef8-9ca3c02b2b9f)
-![histogram_of_meerkat_dark](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/d9443193-a956-4f77-9aaa-75b044d3576b)
-![histogram_of_meerkat_bright](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/d293520e-bc4f-47ca-852f-9f192ddc8e74)
-![histogram_of_catch_300x168](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/0e36c746-3f1a-4348-870d-8b4e6821c082)
-![histogram_of_cat_512_match_traffic](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/ffa31820-56e4-41a1-ba3d-27eea115cdec)
-![histogram_of_cat_512_match_catch_cat](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/f25ab360-7274-4956-873a-ba1a951863b6)
-![histogram_of_cat_512](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/99e185f5-03a5-4059-bbbd-79d8bff2ab69)
-![histogram_of meerkat_high_contrast_equal](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/eb2e2835-bdff-461f-815a-2c60d757c668)
-![histogram_of meerkat_dark_equal](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/9b600c48-3c44-46dd-8fdc-7f96d810e369)
-![histogram_of meerkat_bright_equal](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/7639e21e-810a-4986-bfab-c5e7fce7a6fc)
-![cat_512_synthesize_with_JackieChen](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/add96a71-5015-4618-8cd3-97e905ce9177)
-![cat_512_synthesize](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/772dcfc8-2dc0-467d-a6ae-8f526bbe5ffe)
-![cat_512_out](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/d0fac0a6-96da-4aab-90bd-cfb63a5b0be6)
-![cat_512_match_traffic](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/2a533d12-0436-40aa-9b36-0552a2e760ec)
-![cat_512_match_catch_cat](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/7b35ccc4-fe4c-4b65-a537-5510f919b24a)
-![cat_512_equal](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/ce736805-1d61-433f-b2d3-1833e298e087)
 ![cat_512_7](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/84366bf3-3a68-4618-af25-4f443a26fff5)
 ![cat_512_6](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/49b82519-6be9-4cf8-9d50-c4bbb7b1744e)
 ![cat_512_5](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/3ba1e114-484d-4861-af4f-ea13f7ef91ed)
@@ -269,7 +128,117 @@ OpenCV version: 4.6.0 (Most of the code does't use OpenCV, only use c/c++ to imp
 ![cat_512_2](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/8ca9e98b-e705-45dd-a01a-5963a410321f)
 ![cat_512_1](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/903f4788-4e4d-446f-857c-00044ebb7203)
 ![cat_512_0](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/fcb8d3db-fe4c-43cf-8e99-97df7259e6d2)
+### Replace bit-plane 0 with the output of your Homework 1 Problem 2b, and synthesize them back to 8-bit image.
+#### the output of Homework 1 Problem 2b
+![JackieChen_512_binary](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/5dfd7e1c-b7e5-433e-8ea0-681c26b13beb)
+#### Replace bit-plane 0 with the output of Homework 1 Problem 2b
+![cat_512_synthesize_with_JackieChen](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/add96a71-5015-4618-8cd3-97e905ce9177)
+#### check LSB bit plane 
+![LSB_bit_plane](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/e76366e4-b01d-4504-8dcc-823c1d918e8a)
+### 3.2.1
+### Power-Law transformation, use at least two different sets of parameters on each image.
+#### original image
+![meerkat_dark_800x600](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/46582643-8d9c-4cc2-94c1-568d77ff50b8)
+#### Power-Law
+![meerkat_dark_1_25](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/5dccef5d-5f1e-45e7-8b9f-ad60ef284d36)
+![meerkat_dark_1_17](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/1207512f-82eb-4177-b342-360f17c78cd4)
+#### original image
+![meerkat_bright_800x600](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/32a0a097-b3e7-4f39-a037-374728e3a2c4)
+#### Power-Law
+![meerkat_bright_3_5](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/7f397846-332d-484b-a574-43cade32d3ca)
+![meerkat_bright_2_5](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/98538dad-4634-48df-b111-0dc10268dd9d)
+#### original image
+![meerkat_high_contrast_800x600](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/b623d337-6b6e-4773-9f63-1db2dc61436d)
+#### Power-Law
+![meerkat_high_contrast_1_04](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/a284e063-7092-4078-95ea-bb9e4c521dd8)
+![meerkat_high_contrast_0_97](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/775ffebf-24fa-4148-bda6-31dc41f6a165)
+
+### 3.2.2
+### Piecewise-Linear transformation
+#### original image
+![meerkat_dark_800x600](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/46582643-8d9c-4cc2-94c1-568d77ff50b8)
+#### Piecewise-Linear
+![meerkat_dark_piecewise_linear](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/1d0b18f6-7c0a-4603-a4dd-49dfb83e85a1)
+#### original image
+![meerkat_bright_800x600](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/32a0a097-b3e7-4f39-a037-374728e3a2c4)
+#### Piecewise-Linear
+![meerkat_bright_piecewise_linear](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/0f77b662-a32b-4f86-965d-008e0bf90791)
+#### original image
+![meerkat_high_contrast_800x600](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/f781fb98-444e-4592-89ab-8eccc46608ed)
+#### Piecewise-Linear
+![meerkat_high_contrast_piecewise_linear](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/9da57bfd-0f6e-44db-a038-fb59f89c3368)
+
+### 3.3.1
+### Plot the histograms of the three meerkat images
+#### image
+![meerkat_dark_800x600](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/46582643-8d9c-4cc2-94c1-568d77ff50b8)
+#### histograms
+![histogram_of meerkat_dark_equal](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/9b600c48-3c44-46dd-8fdc-7f96d810e369)
+#### image
+![meerkat_bright_800x600](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/32a0a097-b3e7-4f39-a037-374728e3a2c4)
+#### histograms
+![histogram_of meerkat_bright_equal](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/7639e21e-810a-4986-bfab-c5e7fce7a6fc)
+#### image
+![meerkat_high_contrast_800x600](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/f781fb98-444e-4592-89ab-8eccc46608ed)
+#### histograms
+![histogram_of meerkat_high_contrast_equal](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/eb2e2835-bdff-461f-815a-2c60d757c668)
+
+### 3.3.2
+### Apply histogram equalization on the three images in 3.3.1 and plot their equalized histograms and compare the histograms before and after histogram equalization.
+#### dark image
+![meerkat_dark_800x600](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/46582643-8d9c-4cc2-94c1-568d77ff50b8)
+#### histogram equalization
+![meerkat_dark_hist_equal](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/a92f28bd-9463-4278-a60b-b93e659c13c6)
+#### bright image
+![meerkat_bright_800x600](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/32a0a097-b3e7-4f39-a037-374728e3a2c4)
+#### histogram equalization
+![meerkat_bright_hist_equal](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/b8145b8e-7a2d-4a54-bfe3-487e22b6562a)
+#### high contrast image
+![meerkat_high_contrast_800x600](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/f781fb98-444e-4592-89ab-8eccc46608ed)
+#### histogram equalization
+![meerkat_high_contrast_hist_equal](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/17ce7c6e-4ac6-4dc7-b2ae-fac15a672c92)
+####  histogram of dark image (after histogram equalization)
+![histogram_of_meerkat_dark](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/d9443193-a956-4f77-9aaa-75b044d3576b)
+####  histogram of bright image (after histogram equalization)
+![histogram_of_meerkat_bright](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/d293520e-bc4f-47ca-852f-9f192ddc8e74)
+####  histogram of high contrast image (after histogram equalization)
+![histogram_of_meerkat_high_contrast](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/56c3f0e8-3c0e-4cdd-aef8-9ca3c02b2b9f)
+
+### 3.3.3
+### Show the histogram matched images of cat_512.raw using catch_300x168.raw and traffic_970x646.raw as histogram specifications respectively, compare and analyze the histograms of cat_512.raw before and after matching
+#### cat_512
+![cat_512_out](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/d0fac0a6-96da-4aab-90bd-cfb63a5b0be6)
+#### catch
+![catch_300x168_1](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/6f93a654-3bb1-432b-8ed8-9e31d3c56721)
+#### traffic
+![traffic_970x646_1](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/d2a78f2b-b0a6-4030-96e1-7eccca90f92a)
+####  histogram matched image (using catch_300x168)
+![cat_512_match_catch_cat](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/7b35ccc4-fe4c-4b65-a537-5510f919b24a)
+####  histogram matched image (using traffic_970x646)
+![cat_512_match_traffic](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/2a533d12-0436-40aa-9b36-0552a2e760ec)
+####  histogram of cat_512
+![histogram_of_cat_512](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/99e185f5-03a5-4059-bbbd-79d8bff2ab69)
+####  histogram of catch
+![histogram_of_catch_300x168](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/0e36c746-3f1a-4348-870d-8b4e6821c082)
+####  histogram of traffic
+![histogram_of_traffic_970x646](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/18705ba5-9d5c-4411-8497-ad5199cb3c1f)
+####  histogram of histogram matched image (using catch_300x168)
+![histogram_of_cat_512_match_catch_cat](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/f25ab360-7274-4956-873a-ba1a951863b6)
+####  histogram of histogram matched image (using traffic_970x646)
+![histogram_of_cat_512_match_traffic](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/ffa31820-56e4-41a1-ba3d-27eea115cdec)
+
+
+
+
+
+
+
+
+![cat_512_synthesize](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/772dcfc8-2dc0-467d-a6ae-8f526bbe5ffe)
+![cat_512_equal](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/ce736805-1d61-433f-b2d3-1833e298e087)
+
 ![traffic_970x646_equal](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/45047a5a-a970-41cd-916f-b9544a42470c)
+
 
 
 
