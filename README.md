@@ -7,27 +7,36 @@ OpenCV version: 4.6.0 (Most of the code does't use OpenCV, only use c/c++ to imp
 
 ### 1.2.a 
 #### Read the raw image
-![lena256_out_1](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/cc0ab9b7-6c50-47d4-8c4a-b7af1889774c)
+![lena256_out_1](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/49395e91-be19-4eae-83fa-64c786120ceb)
 ### 1.2.b
 #### Read the raw image (opencv)
-![lena256out_opencv_1](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/ed14f09b-a255-4b45-ae63-27f60f4a2c24)
+![lena256out_opencv_1](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/b2c4c4cc-f7e8-41f1-bdf6-4c57f3b8edcc)
 ### 1.2.c
 #### Rotate the raw image 
-![lena_rotate_1](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/2355babe-a907-473b-98d9-0adb700aff4c)
+![lena_rotate_1](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/e81f47c1-5873-4ae4-96e2-7bce021a1e0c)
 ### 1.2.d
 #### Cutting an image horizontally or vertically
-![lena_hor_1](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/3d1ec77b-784f-475c-8d22-25ec3d4ca159)
-
-![lena_ver_1](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/ebcdaf61-1386-49ee-9b8d-a84fcb948f5a)
+![lena_hor_1](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/0247d6a1-be27-43e8-b517-7702c5037edb)
+![lena_ver_1](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/dd4d8538-5cc8-48e5-a9f0-a044f88e4907)
 ### 1.2.e
 #### Image stitching
-![combine_1](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/0e0da769-5c00-4418-ba36-c8dde17c15cb)
+![combine_1](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/ad49a991-c1ea-4d75-8e35-87c3b467226d)
 ### 1.3.a
 #### Adding value 45 to each pixel value of the image
-![lena_add_value45_1](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/a51fb144-a3c3-4226-9542-9774fc97838e)
+![lena_add_value45_1](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/55313cea-604d-4702-9d94-e23fb8f3e5c1)
 ### 1.3.b
 #### Adding random value between -55 to 55 to each pixel value of the image
-![lena_add_randomValue_1](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/ffbb852a-16de-44f4-89d8-e1e69c110a80)
+![lena_add_randomValue_1](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/e93e7a33-5095-4386-be47-d536d9d103dd)
+
+
+
+
+
+
+
+
+
+
 
 ## ADIP_2 result:
 ### 2.1.2
