@@ -45,9 +45,9 @@ OpenCV version: 4.6.0 (Most of the code does't use OpenCV, only use c/c++ to imp
 ![lena128](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/6100b33d-5ecb-485e-b4e2-d283f4279861)
 #### nearest neighbor
 ![lena128_resize_256_nearest](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/37047c79-63a8-46f8-8085-9c09df366722)
-![lena128_resize_256_bilinear](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/15bdfa5d-a1a7-4b3c-9066-f7148be1df91)
-#### bilinear
 ![lena128_resize_512_nearest](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/3a6fd32e-f1be-49c2-b5d4-3ee0681ba58f)
+#### bilinear
+![lena128_resize_256_bilinear](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/15bdfa5d-a1a7-4b3c-9066-f7148be1df91)
 ![lena128_resize_512_bilinear](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/db513d41-11d3-4dad-89f5-18756ccde858)
 
 ### 2.2.2 
