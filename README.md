@@ -160,7 +160,7 @@
 ![meerkat_high_contrast_piecewise_linear](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/b76afefe-8b66-4d08-a016-9c4d4568f0d5)
 
 ### 3.3.1
-###　Plot the histograms of the three meerkat images
+### Plot the histograms of the three meerkat images
 #### image
 ![meerkat_dark_800x600](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/3853edbe-edf9-42a8-bfa0-bbd6a5401a22)
 #### histograms
