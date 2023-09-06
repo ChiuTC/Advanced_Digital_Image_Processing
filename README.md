@@ -1,5 +1,9 @@
-# Advanced_Digital_Image_Processing
-ADIP_1 result:
+# Advanced_Digital_Image_Processing  
+
+
+
+  
+## ADIP_1 result:
 
 ### 1.2.a 
 #### Read the raw image
