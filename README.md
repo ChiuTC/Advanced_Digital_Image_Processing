@@ -148,7 +148,7 @@ OpenCV version: 4.6.0 (Most of the code does't use OpenCV, only use c/c++ to imp
 ![meerkat_bright_3_5](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/7f397846-332d-484b-a574-43cade32d3ca)
 ![meerkat_bright_2_5](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/98538dad-4634-48df-b111-0dc10268dd9d)
 #### original image
-![meerkat_high_contrast_800x600](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/b623d337-6b6e-4773-9f63-1db2dc61436d)
+![meerkat_high_contrast_800x600](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/f781fb98-444e-4592-89ab-8eccc46608ed)
 #### Power-Law
 ![meerkat_high_contrast_1_04](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/a284e063-7092-4078-95ea-bb9e4c521dd8)
 ![meerkat_high_contrast_0_97](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/775ffebf-24fa-4148-bda6-31dc41f6a165)
@@ -234,123 +234,120 @@ OpenCV version: 4.6.0 (Most of the code does't use OpenCV, only use c/c++ to imp
 ### 4.1.1
 ### show and discuss the results of two different Laplacian filters. To generate the results, implement and compare the differences in the four border processing approaches taught in class.
 #### original image and noise image
-![roof_640x427_1](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/bae17eee-3832-47d3-a376-480ef540ab08)
-![roof_640x427_noise_1](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/60d66e1c-a3da-4f33-bc00-c746d851061c)
+![roof_640x427_1](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/2ada7f89-e9bc-4207-ab52-f241cf4d1094)
+![roof_640x427_noise_1](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/cc8ea585-7c23-47c6-a12f-420eac4e3394)
 
 #### Laplacian filter (4-neighborhoods)
 ##### smaller output
-![roof_640x427_Lapalacian4_smaller_output](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/c2b196c5-5a65-4b0f-8365-74d3d723f928)
-![roof_640x427_noise_Lapalacian4_smaller_output](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/0c960e0d-76f0-470e-8dd3-0cc5b3ce5ea9)
+![roof_640x427_Lapalacian4_smaller_output](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/36f4bce9-19c9-4fe5-adef-9a17cdfd6e76)
+![roof_640x427_noise_Lapalacian4_smaller_output](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/eb8c0779-2c1c-4958-982f-d5054b2dc7ae)
 ##### ad hoc
-![roof_640x427_Lapalacian4_ad_hoc](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/effd743d-b104-49da-ae95-64e63c0bfd1b)
-![roof_640x427_noise_Lapalacian4_ad_hoc](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/a82d4cef-0a74-4a5f-8cfb-61a69d67ac39)
+![roof_640x427_Lapalacian4_ad_hoc](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/efc8ce71-4880-48fc-a692-5b5bf1b34f4f)
+![roof_640x427_noise_Lapalacian4_ad_hoc](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/67ca4254-d29b-4ff9-80d1-02f6f04d1c03)
 ##### zero padding
-![roof_640x427_Lapalacian4_zero_padding](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/440d2a60-d056-4a7b-b4be-e5bed87c891a)
-![roof_640x427_noise_Lapalacian4_zero_padding](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/6363e6e4-7293-4990-a507-33e21fd2fa87)
+![roof_640x427_Lapalacian4_zero_padding](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/66236449-1eda-4a7c-9085-0ddf2bed8c8c)
+![roof_640x427_noise_Lapalacian4_zero_padding](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/63fa60ca-70cb-4ca2-a6a7-c6812481401a)
 ##### replicaiton
-![roof_640x427_Lapalacian4_replication](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/2805ce02-136b-4e72-a791-0a5af4840a8a)
-![roof_640x427_noise_Lapalacian4_replication](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/575ce50f-11d6-42b5-9972-e1983121c0de)
+![roof_640x427_Lapalacian4_replication](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/df956df3-cc43-4248-b6be-7ddf67ebdd45)
+![roof_640x427_noise_Lapalacian4_replication](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/803b43ce-056e-4dba-a76e-bbcada48bf62)
 
 #### Laplacian filter (8-neighborhoods)
 ##### smaller output
-![roof_640x427_Lapalacia8_smaller_output](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/744f2736-3e65-406f-b14f-6309c7432111)
-![roof_640x427_noise_Lapalacian8_smaller_output](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/66e5cd65-c720-4fcf-9ea6-1090566f528c)
+![roof_640x427_Lapalacia8_smaller_output](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/3fbd0682-cded-4aad-ab10-9b6af82f8b48)
+![roof_640x427_noise_Lapalacian8_smaller_output](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/9e3c91c2-c94c-4506-a284-63c4e12dfcbd)
 ##### ad hoc
-![roof_640x427_Lapalacian8_ad_hoc](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/bb47b966-8b7f-45b7-a24a-3d3913d898f1)
-![roof_640x427_noise_Lapalacian8_ad_hoc](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/fc80a8f3-c91f-4f63-9ec4-9901894af780)
+![roof_640x427_Lapalacian8_ad_hoc](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/9aa5d145-788e-4827-bb67-283a10b69cf3)
+![roof_640x427_noise_Lapalacian8_ad_hoc](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/8f84b8b1-20c6-4855-b1e8-fcffa79d4ea1)
 ##### zero padding
-![roof_640x427_Lapalacian8_zero_padding](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/9df5d807-a75c-4bae-b947-54636d60f4fc)
+![roof_640x427_Lapalacian8_zero_padding](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/916b3c79-588f-4deb-9b70-5d8892b17b74)
 ![roof_640x427_noise_Lapalacian8_zero_padding](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/b55550a3-13d2-46a1-a2f1-5e5abbc5f0e6)
 ##### replicaiton
-![roof_640x427_Lapalacian8_replication](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/469f44ce-babc-44e2-b578-0bb5a2e0fa85)
-![roof_640x427_noise_Lapalacian8_replication](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/3ab3f96d-e92f-4eeb-9a58-ff0791bca7a0)
+![roof_640x427_Lapalacian8_replication](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/87914e9e-a691-4303-a52f-3e9783fd7614)
+![roof_640x427_noise_Lapalacian8_replication](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/6ed0ba12-dee2-4bd0-a80b-829023aa536b)
 
 
 ### 4.1.2
 ### Display and analyze the results of the individual directional Sobel filters as well as the combined one.
 #### original image 
-![roof_640x427_1](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/bae17eee-3832-47d3-a376-480ef540ab08)
+![roof_640x427_1](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/1d301d8c-0e18-462b-b80c-033fca0542cd)
 #### Sobel Gy
-![roof_640x427_Sobel_Gy_replication](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/081798c0-8b27-4554-b61b-ff36aa9f50c9)
+![roof_640x427_Sobel_Gy_replication](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/f157c744-daec-4150-9dd7-0c4998624ff0)
 #### Sobel Gx
-![roof_640x427_Sobel_Gx_replication](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/829fbecf-5549-4e7e-8e4f-08c4573cc58b)
+![roof_640x427_Sobel_Gx_replication](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/315685f0-47b1-4cca-8daa-a50c9f8aabe1)
 #### Sobel combine
-![roof_640x427_Sobel_combine_replication](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/aa1ca307-aace-42c7-9ba8-89c86423ba37)
+![roof_640x427_Sobel_combine_replication](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/9b28ef28-e3b8-4574-9d85-39465ee27491)
 
 #### noise image 
-![roof_640x427_noise_1](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/60d66e1c-a3da-4f33-bc00-c746d851061c)
+![roof_640x427_noise_1](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/5dc8f122-ee1d-48cc-b7d9-f7e6278550e4)
 #### Sobel Gy
-![roof_640x427_noise_Sobel_Gy_replication](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/f187baf3-9d74-45df-a001-add8c84ae3a5)
+![roof_640x427_noise_Sobel_Gy_replication](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/f13f18c0-64fb-458f-ad76-44411d820ed0)
 #### Sobel Gx
-![roof_640x427_noise_Sobel_Gx_replication](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/923bb6cb-5d79-4874-be55-f3a1a72a54a0)
+![roof_640x427_noise_Sobel_Gx_replication](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/88998d95-14d2-447e-b04a-6de9738c9a3e)
 #### Sobel combine
-![roof_640x427_noise_Sobel_combine_replication](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/ac85a7d5-a926-4857-b3bf-f5828a62faed)
-
+![roof_640x427_noise_Sobel_combine_replication](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/9d98c3b8-5ac6-4a2e-94ca-4470a1d1e29d)
 
 
 
 ### 4.2.1
 ### Use a 5x5 mean filter to filter these two images and determine whether or not the histograms of the filtered images remain the same.
 #### original image 
-![block white_256_1](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/0235e73e-e4d5-481d-a2a4-16cbc92c61c4)
+![block white_256_1](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/18e401e2-ed0f-44b1-ae21-af7757c5cff9)
 #### mean filter
-![block_white_256_mean](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/9b932954-9fda-472e-8e00-8ee8ab88fd8e)
+![block_white_256_mean](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/4e2fa7c6-62e2-417e-8982-abb5f35263e2)
 #### histograms of the filtered image
-![histogram of block_white_256_mean](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/66c7110d-f2b0-480f-95a9-93750afc46de)
+![histogram of block_white_256_mean](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/db296983-8a06-427c-9bf7-2069107d265e)
 #### original image 
-![chessboard_256_1](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/c397ab4a-c444-451d-af19-a9f8ad7988cb)
+![chessboard_256_1](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/919fdf89-681b-4ab3-816b-a3ce1048b97f)
 #### mean filter
-![chessboard_256_mean](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/19ccb709-7c35-4dbc-a262-f23e31dbe82a)
+![chessboard_256_mean](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/6b1449d0-aff4-4ad3-adfa-12a2b2d0671a)
 #### histograms of the filtered image
-![histogram of chessboard_256_mean](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/c9ea2f23-e715-4673-88a7-b742715acb79)
+![histogram of chessboard_256_mean](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/59099619-a92a-4e41-8dfc-8594fe39341e)
 
 ### 4.2.2
 #### On the baboon_256.raw, apply 3x3 and 5x5 Gaussian filters with sigma = 0.8, 1.3, 2.0.
 #### original image 
-![baboon_256_1](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/4d4c32bf-6ab0-4e6b-b753-19bd7aaa0e51)
+![baboon_256_1](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/da175afb-fd83-49b6-b127-a28dd33c18cf)
 #### 3x3 Gaussian filter with sigma = 0.8, 1.3, 2.0
-![baboon_256_0_8_filter_3](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/857a5b11-a92c-4ba5-a3c1-fdc901c7138e)
-![baboon_256_1_3_filter_3](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/54dd3f1f-06ce-4a44-8673-8f9493020583)
-![baboon_256_2_0_filter_3](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/f04b8fcd-55ee-4566-ac52-6d78fdae6d1b)
+![baboon_256_0_8_filter_3](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/7d72f390-452a-445b-9b6c-d8fd99dbba41)
+![baboon_256_1_3_filter_3](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/ab0520d0-d1c6-4499-9222-37a2ccfaed21)
+![baboon_256_2_0_filter_3](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/4e380382-2459-4512-8fb5-21e1fe06090b)
 #### 5x5 Gaussian filter with sigma = 0.8, 1.3, 2.0
-![baboon_256_0_8_filter_5](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/b11d6b1d-00ef-4f71-bf16-8eec8d4ffa2e)
-![baboon_256_1_3_filter_5](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/f148e061-115c-48b0-9e0a-ee3b1f6075a1)
-![baboon_256_2_0_filter_5](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/1d91c396-3c4a-4ab8-b3ac-29f6ec27acd5)
+![baboon_256_0_8_filter_5](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/57795b7f-3a3e-474f-a051-c2ecb1cfcac5)
+![baboon_256_1_3_filter_5](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/1023e81d-2fc9-434d-ad1d-cc3337ab9ab4)
+![baboon_256_2_0_filter_5](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/4187b689-7817-43eb-b2eb-44fb0c30590c)
+
 
 ### 4.2.3
 ### Use the methods to improve and sharpen the image.
 #### original image 
-![house_blur_noise_790x720_1](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/6e36f2cf-3a49-4418-854f-e068e5c1549d)
+![house_blur_noise_790x720_1](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/476daa57-f3e3-499c-af11-35ed1dddd964)
 #### mean filter
-![house_blur_noise_790x720_median](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/0b6df291-1768-4f9e-9f39-5f28c7045dc1)
+![house_blur_noise_790x720_median](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/74f200ec-dea8-4413-b476-6b349069bb1f)
 #### Sobel Gy
-![house_blur_noise_790x720_sobel_Gy](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/1a71010e-5069-4160-b0a9-ea475ffeff31)
+![house_blur_noise_790x720_sobel_Gy](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/25f8a86a-6c55-4268-b50e-1d9ed245ecaf)
 #### Sobel Gx
-![house_blur_noise_790x720_sobel_Gx](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/370cddb4-b235-443d-9c6c-765961d0e715)
+![house_blur_noise_790x720_sobel_Gx](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/4d1f1f0c-b5d9-491d-8bba-906a45b54df8)
 #### mean filter + Sobel
-![house_blur_noise_790x720_median_sobel](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/38df1b50-5f68-4f57-b91c-3bdbe30d4539)
+![house_blur_noise_790x720_median_sobel](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/683d0908-eed7-47c5-8154-ecd6ea4b1f83)
 #### mean filter + Sobel + histogram matching(with the image after performing mean filtering)
-![house_blur_noise_790x720_median_sobel_match](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/bdbd4e0a-a890-44d4-a54b-8b13afee3797)
+![house_blur_noise_790x720_median_sobel_match](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/2b9a8910-0229-4561-971c-c42fe2f43325)
 
 ### 4.3
 ### Apply Local Histogram Equalization on tsukuba_683x512.raw, and process it with at least three different mask sizes.
 #### original image 
-![tsukuba_683x512_1](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/1a3a7884-f55c-466f-83ed-45d115b984ae)
+![tsukuba_683x512_1](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/63bc0cfe-d491-4e31-804e-9ec089a6f85d)
 #### Apply Local Histogram Equalization (mask size: 3x3)
-![tsukuba_683x512_3](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/a5afc17b-a92e-431e-96df-1947f0857c2e)
+![tsukuba_683x512_3](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/8af3db6d-0134-442e-91d5-20559e0fea41)
 #### Apply Local Histogram Equalization (mask size: 5x5)
-![tsukuba_683x512_5](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/98762374-6387-4481-b4ba-9e0b128fff4f)
+![tsukuba_683x512_5](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/ed44a167-5e9d-4c72-bfd1-d1bdd7958423)
 #### Apply Local Histogram Equalization (mask size: 7x7)
-![tsukuba_683x512_7](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/fafa7102-258b-4863-81b5-1c99d45635c6)
+![tsukuba_683x512_7](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/6b26e203-4a7c-4c85-9d9d-735254219994)
 #### Histogram of image (mask size: 3x3)
-![histogram of tsukuba_683x512_3](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/eb70dc75-4cb2-4363-a1ec-581ff5d23274)
+![histogram of tsukuba_683x512_3](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/05c65f29-19a2-4697-9309-16c51a06dc08)
 #### Histogram of image (mask size: 5x5)
-![histogram of tsukuba_683x512_5](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/16280864-6650-49c6-92f1-a5e9412cffca)
+![histogram of tsukuba_683x512_5](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/250cf0a2-acce-4a2a-a839-d22deb97c2b3)
 #### Histogram of image (mask size: 7x7)
-![histogram of tsukuba_683x512_7](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/4315081e-a814-4b3e-aa5b-b0b56cf2753e)
-
-
-
+![histogram of tsukuba_683x512_7](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/850a8949-192c-4474-8f89-786f26ebdaa1)
 
 
 
