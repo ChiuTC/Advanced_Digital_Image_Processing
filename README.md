@@ -29,96 +29,114 @@ OpenCV version: 4.6.0 (Most of the code does't use OpenCV, only use c/c++ to imp
 ![lena_add_randomValue_1](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/e93e7a33-5095-4386-be47-d536d9d103dd)
 
 
-
-
-
-
-
-
-
-
-
 ## ADIP_2 result:
 ### 2.1.2
 ### Calculate the MSE and PSNR between blurred image and original image.
 #### original image
 ![lena256_1](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/bfa0c578-c559-48ba-9de5-9e223e756b1b)
 #### blur 50
-![lena256_blur_50](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/81a7cd63-a8c9-4df8-b403-2ea09bf4029f)
+![lena256_blur_50](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/7b66879a-0bc0-4367-9115-ecb06d068ec8)
 #### blur 100
-![lena256_blur_100](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/2a0fcdee-a7f4-4850-9f52-83268ccfb847)
+![lena256_blur_100](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/b2734185-5c1d-4183-9b8b-85de7f4db4f8)
 
 ### 2.2.1
 ### Use nearest neighbor and bilinear algorithms to resize lena128.raw into 256x256 and 512x512, than calculate the MSE and PSNR.
 #### original image
-![lena128](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/6100b33d-5ecb-485e-b4e2-d283f4279861)
+![lena128](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/349aa722-1bc0-4796-a67a-215a97ed9bf2)
 #### nearest neighbor 256x256
-![lena128_resize_256_nearest](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/37047c79-63a8-46f8-8085-9c09df366722)
+![lena128_resize_256_nearest](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/3acd0b83-c260-4fbe-a706-18982ee065cd)
 #### nearest neighbor 512x512
-![lena128_resize_512_nearest](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/3a6fd32e-f1be-49c2-b5d4-3ee0681ba58f)
+![lena128_resize_512_nearest](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/24aa3ea3-0bfd-4799-9dc1-b4d1559b86b4)
 #### bilinear 256x256
-![lena128_resize_256_bilinear](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/15bdfa5d-a1a7-4b3c-9066-f7148be1df91)
+![lena128_resize_256_bilinear](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/8638387e-2192-4514-b941-d45d7db41e1f)
 #### bilinear 512x512
-![lena128_resize_512_bilinear](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/db513d41-11d3-4dad-89f5-18756ccde858)
+![lena128_resize_512_bilinear](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/68c994c5-610e-4e72-ae01-b87eee33cba8)
 
 ### 2.2.2 
 ### Use nearest neighbor and bilinear algorithms to resize lena512.raw into 256x256 and 128x128, try to blur the image when scaling down.
 #### original image
-![lena512_1](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/81971f13-7f79-4fd2-b4d3-3d4bba10488f)
+![lena512_1](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/6b44d9b3-0657-4723-813d-b064e2e06bcd)
 #### nearest neighbor 256x256 
-![lena512_resize_256_nearest](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/a3e9cffb-b0eb-4587-8244-bce58f62d2f2)
+![lena512_resize_256_nearest](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/c434a73e-d10e-41fa-bc45-693226e4f1ed)
 #### nearest neighbor 256x256 (after blur) 
-![lena512_resize_256_nearest_blur](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/d6ca3142-9e73-4f0b-8607-dc4693dbc732)
+![lena512_resize_256_nearest_blur](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/40875a90-1410-4180-8fc7-ed45e877732d)
 #### bilinear 256x256 
-![lena512_resize_256_bilinear](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/253667dd-bebe-49b5-aca2-ecba604c752c)
+![lena512_resize_256_bilinear](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/e5013294-b00a-4d20-848e-b909b2d7016b)
 #### bilinear 256x256 (after blur)
-![lena512_resize_256_bilinear_blur](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/76de3156-cc7c-4617-a6ae-3b8dbaeff7ca)
+![lena512_resize_256_bilinear_blur](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/ff71bfe0-30b2-4172-8c34-0b40c3c252c0)
 #### nearest neighbor 128x128
-![lena512_resize_128_nearest](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/51c2e296-8e7f-440e-be40-59badeb65788)
+![lena512_resize_128_nearest](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/ead2364b-498c-4f9e-bedd-5b4ac514d769)
 #### nearest neighbor 128x128 (after blur)
-![lena512_resize_128_nearest_blur](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/483a6a3e-1b6f-47c0-9285-6d303e297f17)
+![lena512_resize_128_nearest_blur](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/ec4481cb-9590-4515-9d75-5202edf77b4a)
 #### bilinear 128x128
-![lena512_resize_128_bilinear](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/3da08434-96ce-4768-9f52-e2f9290fba5d)
+![lena512_resize_128_bilinear](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/ada97d80-2b97-4487-b8bb-e135ad509206)
 #### bilinear 128x128 (after blur)
-![lena512_resize_128_bilinear_blur](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/ade2d9db-1787-4354-a7ca-3b83e85cf52d)
+![lena512_resize_128_bilinear_blur](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/ecf33f0e-126e-47d4-8431-07fefb359746)
+
 
 ### 2.2.3
 ### Use bilinear and bicubic algorithms to zoom in the part from (177,108) to (276,249) in duck900x600.
 #### original image
 ![duck900x660_1](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/f4bf7bae-c69d-4824-b912-326b6276e217)
 #### bilinear
-![duck_zoom_in_bilinear](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/fceb1d2f-4bcc-4a59-99fd-5907ed3b7dae)
+![duck_zoom_in_bilinear](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/eeef9601-8991-4edf-861b-d7fb586ab31b)
 #### bicubic
-![duck_zoom_in_bicubic](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/7c36d82d-fb47-4136-97ee-441b549e4df0)
+![duck_zoom_in_bicubic](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/9c24ff6a-1f43-4ebd-99cd-7a4ce413eade)
 ### 2.3
 ### Quantize the gray-level resolution of lena256.raw and baboon256.raw from 8 bits to 1 bits.
-![lena8](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/55f79118-4834-421f-af30-a57d9cde58b4)
-![lena7](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/a2a43c30-b49e-4c37-b746-51e780978158)
-![lena6](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/13a0eab3-f306-4b09-a8e3-2abd6ca3d1ca)
-![lena5](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/ec2a5254-65d6-42c7-9589-cd7dc7d5cc2b)
-![lena4](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/ef3e1b9f-7315-497d-a9cd-b4efebdc39d4)
-![lena3](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/a54f934b-0564-4ade-8a58-59ae208033dc)
-![lena2](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/99966c5f-9d10-49dd-82b4-14c21d50884e)
-![lena1](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/91535efd-26f5-40c1-a725-42c5b2a6a27b)  
+![lena8](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/97d2de54-c240-4314-b88e-3605376406fe)
+![lena7](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/6b5a75a9-9481-4027-a6fe-d0ecea881b34)
+![lena6](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/9600b3dc-5321-4ad2-a38c-9f4126ef6caa)
+![lena5](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/c8c70d3e-9069-41eb-b38f-f1e3b2740f8f)
+![lena4](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/d2239d32-2405-4e65-8fe3-35bfd1643884)
+![lena3](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/d298621f-bdaf-4b32-b8ef-a5965f03ea05)
+![lena2](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/2ea40c01-5b68-47a6-a187-7f2ac1384fa9)
+![lena1](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/9b046d93-7a23-46a1-b0ee-121c773a91d8)
 
-![baboon8](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/eecd5f78-ceae-48e4-a075-6c53e7e4bec3)
-![baboon7](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/73ead11d-6277-4666-9286-615e222d810c)
-![baboon6](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/5168c0a4-e5c0-43d9-8437-a25137d5f609)
-![baboon5](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/0c59168c-ade8-48dc-a39a-58e62d9d87f9)
-![baboon4](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/b8207b6f-9987-48c4-9b71-0ef55a017037)
-![baboon3](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/6c0a2368-c6a5-4605-aadd-8fcf236705c1)
-![baboon2](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/6e80c475-846f-42d5-b23a-71eb9e8bde5c)
-![baboon1](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/0566246c-bd2b-4fef-b951-8314529238dd)
+![baboon8](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/b5e1e55a-2428-4456-bf43-1fb0c09389d5)
+![baboon7](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/51f237ed-825e-48b3-813c-e4ab5cc14838)
+![baboon6](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/97efdc0a-70b1-4727-aa6e-fc2d3069ccd1)
+![baboon5](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/34e535b4-4c37-451f-8f41-570b53cbc147)
+![baboon4](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/c7c60abe-8071-42ed-8925-c2a742ddfef8)
+![baboon3](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/6d3765be-2b31-43d7-913d-a6a6dcdc1bab)
+![baboon2](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/1043ae08-ec5d-4fa8-9d57-e47d4ffa2ac1)
+![baboon1](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/64e9a4d8-83db-4015-8817-106e9f753649)
 ### 2.4
 ### Find out the solutions from start (0,14) to end (34,93) using D4, D8 and Dm distance on map100x100.
 #### map100x100
 ![map100x100_1](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/c8a3dce3-d6f7-4c14-88f7-aa35a6987dde)
 ####  D4
-![map_D4](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/f64f7cc0-d9da-4886-886e-1c985c1c3273) 
+![map_D4](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/3891c5d0-4ea2-4f41-8e00-c2168b17da41)
 #### D8
-![map_D8](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/e896bdd4-6bb8-48b2-b47a-caf634fbf63c)
+![map_D8](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/b14b4316-db96-45ac-a96b-fbab74445da4)
 #### Dm
-![map_Dm](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/71adaadd-7920-40df-b7d5-ca5fc978c07e)
+![map_Dm](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/57fe7a14-fb7b-421a-9fc8-1aa6433d7f1a)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 ## ADIP_3 result:
