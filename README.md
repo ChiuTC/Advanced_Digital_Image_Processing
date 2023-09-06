@@ -414,41 +414,59 @@ OpenCV version: 4.6.0 (Most of the code does't use OpenCV, only use c/c++ to imp
 ### Use Butterworth LPF and Butterworth HPF with D0 = 5,20,50 and n= 1,2,3 respectively, and show the magnitude spectrum and output image produced by IDFT.
 
 #### Butterworth LPF with D0 = 5,20,50 and n= 1,2,3 respectively.
+##### D0 = 5, n = 1
 ![raccoon_512_LPF_5_1](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/4eacdd2f-393d-4812-a542-bebf7db881b2)
 ![raccoon_512_LPF_mag_5_1](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/4b28beea-aa35-40db-b285-28adab8d6009)
+##### D0 = 5, n = 2
 ![raccoon_512_LPF_5_2](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/d839b056-9946-466f-b6da-5a9e016a7566)
 ![raccoon_512_LPF_mag_5_2](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/9b85577e-64d0-4b6f-bd29-119536db896c)
+##### D0 = 5, n = 3
 ![raccoon_512_LPF_5_3](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/17f91ad7-4764-4dce-9967-4c4d6c6d6e90)
 ![raccoon_512_LPF_mag_5_3](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/86518467-ccaf-415f-9dec-c3c1032fd3d0)
+##### D0 = 20, n = 1
 ![raccoon_512_LPF_20_1](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/ef5b530d-5099-46e8-81f9-1b45c3cf1941)
 ![raccoon_512_LPF_mag_20_1](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/cf188b64-42a2-4b70-920c-4f618d89c7da)
+##### D0 = 20, n = 2
 ![raccoon_512_LPF_20_2](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/a1c4cf6d-e44a-43cc-8491-4cd40a3e7250)
 ![raccoon_512_LPF_mag_20_2](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/ab7963e6-28a7-43d7-b34c-cb1d34c34f80)
+##### D0 = 20, n = 3
 ![raccoon_512_LPF_20_3](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/4e763dcd-5f78-4f22-a2b4-97a2a4c39f2f)
 ![raccoon_512_LPF_mag_20_3](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/3949fe02-c7dc-4587-95ab-fc5a6075d5f2)
+##### D0 = 50, n = 1
 ![raccoon_512_LPF_50_1](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/1b6afd00-e05d-43bf-af82-cbe565bcd8e5)
 ![raccoon_512_LPF_mag_50_1](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/d2868eaa-1f1d-4952-8df5-e6ab94ea7048)
+##### D0 = 50, n = 2
 ![raccoon_512_LPF_50_2](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/39647d15-6052-41e6-a2b8-6a4db6f3b5df)
 ![raccoon_512_LPF_mag_50_2](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/ff61fa83-fe48-454e-ad35-185ddd7688bc)
+##### D0 = 50, n = 3
 ![raccoon_512_LPF_50_3](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/7d1a420a-d204-45f9-823b-670281645666)
 ![raccoon_512_LPF_mag_50_3](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/c34062e2-51d5-41a2-9433-3ecd25287072)
 #### Butterworth HPF with D0 = 5,20,50 and n= 1,2,3 respectively.
+##### D0 = 5, n = 1
 ![raccoon_512_HPF_5_1](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/44e6d1cd-4268-48d9-8a69-ee3faabff148)
-![raccoon_512_HPF_5_2](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/65b2ef09-ce29-4f4b-a9e3-e293fe8a1bf6)
-![raccoon_512_HPF_5_3](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/fe9fef84-6c6a-4532-affd-82647ad6e566)
 ![raccoon_512_HPF_mag_5_1](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/6bd68020-9653-473d-b27d-f6c2069b3bda)
+##### D0 = 5, n = 2
+![raccoon_512_HPF_5_2](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/65b2ef09-ce29-4f4b-a9e3-e293fe8a1bf6)
 ![raccoon_512_HPF_mag_5_2](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/304e4477-228c-4aca-8378-252618b8e203)
+##### D0 = 5, n = 3
+![raccoon_512_HPF_5_3](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/fe9fef84-6c6a-4532-affd-82647ad6e566)
 ![raccoon_512_HPF_mag_5_3](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/931491eb-f65b-4959-8afe-2707d1e09498)
+##### D0 = 20, n = 1
 ![raccoon_512_HPF_20_1](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/24ccef4e-198f-419b-b7eb-b1ebd544a5a6)
 ![raccoon_512_HPF_mag_20_1](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/2cc4154b-de8c-4d31-b6cf-3a51f0e955c0)
+##### D0 = 20, n = 2
 ![raccoon_512_HPF_20_2](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/500ea1b9-4f1f-47f9-8226-5912f0dfa80a)
 ![raccoon_512_HPF_mag_20_2](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/7c274b94-b3cb-400a-ad4b-bb7d45ed22d7)
+##### D0 = 20, n = 3
 ![raccoon_512_HPF_20_3](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/53b55f4e-d704-43a4-880b-00fffe68af86)
 ![raccoon_512_HPF_mag_20_3](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/43b8f0cd-eee0-4ad4-b680-b20d41ac2b07)
+##### D0 = 50, n = 1
 ![raccoon_512_HPF_50_1](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/f2499496-8b83-4dd1-85db-164a233bf4e4)
 ![raccoon_512_HPF_mag_50_1](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/95517d1e-eac0-4c3a-8752-ff1fae1c45dc)
+##### D0 = 50, n = 2
 ![raccoon_512_HPF_50_2](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/08cce10f-271d-48bb-919d-638666cf050a)
 ![raccoon_512_HPF_mag_50_2](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/30efce2f-395d-44f9-88f8-79393b32e2b4)
+##### D0 = 50, n = 3
 ![raccoon_512_HPF_50_3](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/166399ef-44cc-4882-8542-f0b10ba81b78)
 ![raccoon_512_HPF_mag_50_3](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/062416dc-4648-4463-8abb-cf128dc06e54)
 ### 5.2.2
@@ -468,7 +486,7 @@ OpenCV version: 4.6.0 (Most of the code does't use OpenCV, only use c/c++ to imp
 ![raccoon_512_1](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/7b18391c-bea6-4c35-8f5a-ccf1f79f142a)
 #### use method i to add watermark to reccoon_512 
 ![methodI_image](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/d35877b9-dffa-431c-b61c-97d06395442a)
-### magnitude spectrum
+#### magnitude spectrum
 ![methodI spectrum magnitude](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/1562003b-0c49-4dce-bcbc-6c648b99824f)
 
 ### 5.3.2
@@ -481,7 +499,7 @@ OpenCV version: 4.6.0 (Most of the code does't use OpenCV, only use c/c++ to imp
 ![raccoon_512_1](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/7b18391c-bea6-4c35-8f5a-ccf1f79f142a)
 #### use method ii to add watermark to reccoon_512 
 ![methodII_image](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/96db7a44-6e55-4198-829e-e0fbc58ba631)
-### magnitude spectrum
+#### magnitude spectrum
 ![methodII spectrum magnitude](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/49865cce-1e35-493e-82cf-44663d0d6222)
 ### 5.4
 ### Apply a homomorphic filter to house_512.raw and experiment to find the best set
