@@ -554,7 +554,7 @@ OpenCV version: 4.6.0 (Most of the code does't use OpenCV, only use c/c++ to imp
 ### Use Morphology to remove noise and then repair letters that have been unintentionally damaged by denoising.
 #### original image 
 ![words_512_1](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/c2266ea6-35d5-48ab-80b5-44d3944e7202)
-#### use Morphology to remove noise 
+#### Use Morphology to remove noise 
 ![words_512_morph](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/cec1723e-70f8-419b-a010-a5a72d21d007)
 
 
