@@ -355,74 +355,75 @@ OpenCV version: 4.6.0 (Most of the code does't use OpenCV, only use c/c++ to imp
 
 
 
+
 ## ADIP_5 result:
 
 ### 5.1.1
 ### Write my own DFT subroutine and test it on images, Show the magnitude spectrum output. 
 #### original image 
-![rhombus_256_1](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/3e9801b7-aec3-4f4e-9dad-6aac92eb6a43)
+![rhombus_256_1](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/61c1f34e-1eb6-4464-a5dc-11bfb7a478fd)
 #### my own DFT subroutine
-
+![rhombus_256_mydft](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/269f1cf5-d4fa-4fb0-b479-1726c90f1c62)
 #### original image 
-![lena_256_1](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/bc965bb3-f3f5-4afe-ae39-f018be97a469)
+![lena_256_1](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/1fb9a1c7-25fc-4429-887a-4aa33f0d484d)
 #### my own DFT subroutine
-![lena_256_mydft](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/a3dcf65a-b958-498f-9524-e778a730d03e)
+![lena_256_mydft](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/65e6bc09-2801-451f-b0ce-53f48e7ac66e)
 #### original image 
-![sine_128_1](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/6c06e1c5-77bb-4a28-bbaa-09c37d826416)
+![sine_128_1](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/a3ce9e7c-35a7-434a-a829-fd6d9ef28dc5)
 #### my own DFT subroutine
-![sine_128_mydft](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/e7bd6830-563a-4863-8926-c3e4d3d2874a)
+![sine_128_mydft](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/a7fb5dc5-6263-40b8-a506-84c39fc22cbb)
 
 ### 5.1.2
 ### Compare the output of Problem(1) with the output of the built-in DFT function on OpenCV. 
 
 #### my own DFT subroutine
-![rhombus_256_mydft](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/96bf7c4e-955f-4e15-ba61-1b8ffcb19801)
-![lena_256_mydft](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/a3dcf65a-b958-498f-9524-e778a730d03e)
-![sine_128_mydft](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/e7bd6830-563a-4863-8926-c3e4d3d2874a)
+![rhombus_256_mydft](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/269f1cf5-d4fa-4fb0-b479-1726c90f1c62)
+![lena_256_mydft](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/65e6bc09-2801-451f-b0ce-53f48e7ac66e)
+![sine_128_mydft](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/a7fb5dc5-6263-40b8-a506-84c39fc22cbb)
 #### Built-in DFT function on OpenCV
-![rhombus_256_mat_dft](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/17fbab86-3e05-461c-a48a-aec4ced43fb0)
-![lena_256_mat_dft](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/8c21fc72-2e26-4360-8d4b-e6959ada3f0b)
-![sine_128_mat_dft](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/0e84a911-580a-4075-b33a-63291fd485fa)
+![rhombus_256_mat_dft](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/782e5575-13c6-440b-88f1-69fe121e13a2)
+![lena_256_mat_dft](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/edbebf22-afee-435c-95c2-dced40d57c5d)
+![sine_128_mat_dft](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/50e8fe22-029e-48b1-93b4-f410e03cf53e)
 
 ### 5.1.3
 ### Write my own IDFT subroutine and test it on DFT output in Problem 1.(1), show the images and compute the MSE between original images without transformation and the images that has been transformed by DFT+IDFT.
 
 #### original image 
-![rhombus_256_1](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/3e9801b7-aec3-4f4e-9dad-6aac92eb6a43)
+![rhombus_256_1](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/61c1f34e-1eb6-4464-a5dc-11bfb7a478fd)
 #### my own IDFT subroutine
-![rhombus_256_myidft](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/09174b34-87d2-45e1-b560-afa38352ba5c)
+![rhombus_256_myidft](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/2a96c694-6462-4dc8-96ba-9df0abdefa51)
 #### original image 
-![lena_256_1](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/bc965bb3-f3f5-4afe-ae39-f018be97a469)
+![lena_256_1](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/1fb9a1c7-25fc-4429-887a-4aa33f0d484d)
 #### my own IDFT subroutine
-![lena_256_myidft](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/a2f1e211-3ce8-4e39-b0b9-97a5cbeab2e7)
+![lena_256_myidft](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/9ceea631-9f71-4607-9867-e8f7760fb15d)
 #### original image 
-![sine_128_1](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/6c06e1c5-77bb-4a28-bbaa-09c37d826416)
+![sine_128_1](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/a3ce9e7c-35a7-434a-a829-fd6d9ef28dc5)
 #### my own IDFT subroutine
-![sine_128_myidft](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/5fa78c9a-bd94-4137-8006-0fd8a312f7bb)
+![sine_128_myidft](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/823ad284-6b50-48cb-b07b-838b5dc9b77d)
 
 
 ### 5.1.4
 ### Compare the output of Problem(3) with the output of the built-in IDFT function on OpenCV. 
 
 #### my own IDFT subroutine
-![rhombus_256_myidft](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/09174b34-87d2-45e1-b560-afa38352ba5c)
-![lena_256_myidft](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/a2f1e211-3ce8-4e39-b0b9-97a5cbeab2e7)
-![sine_128_myidft](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/5fa78c9a-bd94-4137-8006-0fd8a312f7bb)
+![rhombus_256_myidft](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/2a96c694-6462-4dc8-96ba-9df0abdefa51)
+![lena_256_myidft](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/9ceea631-9f71-4607-9867-e8f7760fb15d)
+![sine_128_myidft](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/823ad284-6b50-48cb-b07b-838b5dc9b77d)
 #### Built-in IDFT function on OpenCV
-![rhombus_256_mat_idft](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/9a8dd645-f523-4b4d-8cc5-41a339629117)
-![lena_256_mat_idft](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/81691b06-3adb-427a-8f0b-f7b78a3d412c)
-![sine_128_mat_idft](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/a6465463-a46f-4b4f-81c8-54724bff001e)
+![rhombus_256_mat_idft](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/47b714de-79ab-4f4c-9f10-65334bf7b2e8)
+![lena_256_mat_idft](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/219d310e-180d-4659-bc90-8eb52b7fae0e)
+![sine_128_mat_idft](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/8e42635b-4424-4f0b-873c-595174b9efec)
 
 ### 5.1.5
 ### Study DCT and implement it, and test it on images in (1). Display spectrum results and compare them to the DFT output.
 #### my own DFT subroutine
-![rhombus_256_mydft](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/96bf7c4e-955f-4e15-ba61-1b8ffcb19801)
-![lena_256_mydft](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/a3dcf65a-b958-498f-9524-e778a730d03e)
-![sine_128_mydft](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/e7bd6830-563a-4863-8926-c3e4d3d2874a)
+![rhombus_256_mydft](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/269f1cf5-d4fa-4fb0-b479-1726c90f1c62)
+![lena_256_mydft](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/65e6bc09-2801-451f-b0ce-53f48e7ac66e)
+![sine_128_mydft](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/a7fb5dc5-6263-40b8-a506-84c39fc22cbb)
 #### my own DCT subroutine
-![rhombus_256_mydct](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/83b140f3-12f0-416a-ba65-d46e25c317a4)
-![lena_256_mydct](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/c8adfa6d-8b2e-4767-b999-b833572f8aba)
-![sine_128_mydct](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/da59d103-387a-4b0e-a3e5-47716f08a8a2)
+![rhombus_256_mydct](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/a7ea7700-21f3-4718-bf5b-a88a0e0f98b8)
+![lena_256_mydct](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/a809f377-5a7d-4eba-96a8-700cdedd86a9)
+![sine_128_mydct](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/af4be9f5-0312-4e2f-8801-e0efb7915487)
 
 ### 5.2.1
 ### Use Butterworth LPF and Butterworth HPF with D0 = 5,20,50 and n= 1,2,3 respectively, and show the magnitude spectrum and output image produced by IDFT.
@@ -492,43 +493,53 @@ OpenCV version: 4.6.0 (Most of the code does't use OpenCV, only use c/c++ to imp
 ### 5.2.2
 ### Apply High-Frequency Emphasis Filtering to improve the high-frequency component of owl_blur_512.raw.
 #### original image 
-![owl_blur_512_1](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/0370ba92-e1c4-49c8-8d58-01abc3539285)
+![owl_blur_512_1](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/127f1db7-18f6-41bd-94f5-996814c67b59)
 #### Apply High-Frequency Emphasis Filtering
-![owl_blur_512_HFEmphasis](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/38f1b385-7d14-4935-8d8c-e1131cc9a55e)
+![owl_blur_512_HFEmphasis](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/568293e1-00c2-4305-bce5-cf7d080c5c62)
 
 ### 5.3.1
 ### Use method i to add watermark to raccoon_512.raw, show the resulted magnitude spectrum and output image that resulted.
 #### method i
-![image](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/92921ca4-b0e2-4160-b43b-6e7d1b859a50)
+![image](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/f2b5ed17-786a-4458-9da9-3f933c399f9d)
 #### watermark image
-![mark_512_1](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/d16dd5c1-7364-4535-a7ec-6101792fed99)
+![mark_512_1](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/529683bb-4090-4fe1-9740-618d6bc047cc)
 #### raccoon_512
-![raccoon_512_1](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/7b18391c-bea6-4c35-8f5a-ccf1f79f142a)
+![raccoon_512_1](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/994ed3c4-888c-4159-9556-08ac1262ce8d)
 #### use method i to add watermark to reccoon_512 
-![methodI_image](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/d35877b9-dffa-431c-b61c-97d06395442a)
+![methodI_image](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/9f3e0402-670b-45da-b6e9-c7d478edf18d)
 #### magnitude spectrum
-![methodI spectrum magnitude](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/1562003b-0c49-4dce-bcbc-6c648b99824f)
+![methodI spectrum magnitude](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/57083862-8cac-4caf-befb-c8468846f90e)
 
 ### 5.3.2
 ### Use method ii to add watermark to raccoon_512.raw, show the resulted magnitude spectrum and output image that resulted.
 #### method ii
-![image](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/58cbf779-ae3d-43e9-b9b5-bee024b4dc66)
+![image](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/189ee1b6-665a-4989-a1c5-f8203f45309b)
 #### watermark image
-![mark_512_1](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/d16dd5c1-7364-4535-a7ec-6101792fed99)
+![mark_512_1](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/529683bb-4090-4fe1-9740-618d6bc047cc)
 #### raccoon_512
-![raccoon_512_1](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/7b18391c-bea6-4c35-8f5a-ccf1f79f142a)
+![raccoon_512_1](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/994ed3c4-888c-4159-9556-08ac1262ce8d)
 #### use method ii to add watermark to reccoon_512 
-![methodII_image](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/96db7a44-6e55-4198-829e-e0fbc58ba631)
+![methodII_image](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/ec8831e4-80f2-4456-aebc-06cc7d80e7ea)
 #### magnitude spectrum
-![methodII spectrum magnitude](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/49865cce-1e35-493e-82cf-44663d0d6222)
+![methodII spectrum magnitude](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/df9159ee-d15a-484b-8351-4e9c415233bd)
 ### 5.4
 ### Apply a homomorphic filter to house_512.raw and experiment to find the best set
 #### homomorphic filter
-![house_HomomorphicFilter](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/b9d3712e-cd10-4e54-a797-73ee99dd86b9)
+![house_HomomorphicFilter](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/5b65d838-58b8-4dad-b308-5b3ed6f4f07c)
 #### histogram equalizaion
-![house_512_LocalHistogramEqu](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/150abe8a-aedd-482b-96de-df36da4a9079)
+![house_512_LocalHistogramEqu](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/e1414063-228e-4dfe-b7e9-7235a257228e)
 #### local histogram equalizaion
-![house_512_HistogramEqu](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/2c2bc559-66b5-4b4d-b53f-fc7fead27d6c)
+![house_512_HistogramEqu](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/82d59ca9-f710-499a-b10c-5f994d51aa5d)
+
+
+
+
+
+
+
+
+
+
 
 
 
