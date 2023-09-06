@@ -315,9 +315,9 @@
 ![house_blur_noise_790x720_sobel_Gy](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/1a71010e-5069-4160-b0a9-ea475ffeff31)
 #### Sobel Gx
 ![house_blur_noise_790x720_sobel_Gx](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/370cddb4-b235-443d-9c6c-765961d0e715)
-#### mean filter +　Sobel
+#### mean filter + Sobel
 ![house_blur_noise_790x720_median_sobel](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/38df1b50-5f68-4f57-b91c-3bdbe30d4539)
-#### mean filter +　Sobel　+ histogram matching(with the image after performing mean filtering)
+#### mean filter + Sobel + histogram matching(with the image after performing mean filtering)
 ![house_blur_noise_790x720_median_sobel_match](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/bdbd4e0a-a890-44d4-a54b-8b13afee3797)
 
 ### 4.3
