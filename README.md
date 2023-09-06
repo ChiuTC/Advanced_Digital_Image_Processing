@@ -1,5 +1,6 @@
 # Advanced_Digital_Image_Processing  
 The implementation code for an assignment in the image processing algorithm course, and the resulting image is shown below.  
+Development Environment:  
 Visual Studio 2022  
 OpenCV version: 4.6.0 (Most of the code does't use OpenCV, only use c/c++ to implement the algorithms)
 ## ADIP_1 result:
