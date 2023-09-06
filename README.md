@@ -1,4 +1,4 @@
-# Advanced_Digital_Image_Processing  
+# Advanced Digital Image Processing   
 The implementation code for an assignment in the image processing algorithm course, and the resulting image is shown below.  
 Development Environment:  
 Visual Studio 2022  
