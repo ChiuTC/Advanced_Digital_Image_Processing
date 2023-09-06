@@ -55,11 +55,13 @@ OpenCV version: 4.6.0 (Most of the code does't use OpenCV, only use c/c++ to imp
 #### original image
 ![lena512_1](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/81971f13-7f79-4fd2-b4d3-3d4bba10488f)
 #### nearest neighbor
-![lena512_resize_256_nearest_blur](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/d6ca3142-9e73-4f0b-8607-dc4693dbc732)
 ![lena512_resize_256_nearest](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/a3e9cffb-b0eb-4587-8244-bce58f62d2f2)
+#### nearest neighbor (after blur)
+![lena512_resize_256_nearest_blur](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/d6ca3142-9e73-4f0b-8607-dc4693dbc732)
 #### bilinear
-![lena512_resize_256_bilinear_blur](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/76de3156-cc7c-4617-a6ae-3b8dbaeff7ca)
 ![lena512_resize_256_bilinear](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/253667dd-bebe-49b5-aca2-ecba604c752c)
+#### bilinear (after blur)
+![lena512_resize_256_bilinear_blur](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/76de3156-cc7c-4617-a6ae-3b8dbaeff7ca)
 #### nearest neighbor
 ![lena512_resize_128_nearest](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/51c2e296-8e7f-440e-be40-59badeb65788)
 #### nearest neighbor (after blur)
