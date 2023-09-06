@@ -341,6 +341,8 @@ OpenCV version: 4.6.0 (Most of the code does't use OpenCV, only use c/c++ to imp
 #### Histogram of image (mask size: 7x7)
 ![histogram of tsukuba_683x512_7](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/4315081e-a814-4b3e-aa5b-b0b56cf2753e)
 
+## ADIP_5 result:
+
 ### 5.1.1
 ### Write my own DFT subroutine and test it on images, Show the magnitude spectrum output. 
 #### original image 
@@ -391,23 +393,23 @@ OpenCV version: 4.6.0 (Most of the code does't use OpenCV, only use c/c++ to imp
 
 #### my own IDFT subroutine
 ![rhombus_256_myidft](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/09174b34-87d2-45e1-b560-afa38352ba5c)
-![sine_128_myidft](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/5fa78c9a-bd94-4137-8006-0fd8a312f7bb)
 ![lena_256_myidft](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/a2f1e211-3ce8-4e39-b0b9-97a5cbeab2e7)
+![sine_128_myidft](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/5fa78c9a-bd94-4137-8006-0fd8a312f7bb)
 #### Built-in IDFT function on OpenCV
 ![rhombus_256_mat_idft](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/9a8dd645-f523-4b4d-8cc5-41a339629117)
-![sine_128_mat_idft](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/a6465463-a46f-4b4f-81c8-54724bff001e)
 ![lena_256_mat_idft](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/81691b06-3adb-427a-8f0b-f7b78a3d412c)
+![sine_128_mat_idft](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/a6465463-a46f-4b4f-81c8-54724bff001e)
 
 ### 5.1.5
 ### Study DCT and implement it, and test it on images in (1). Display spectrum results and compare them to the DFT output.
 #### my own DFT subroutine
 ![rhombus_256_mydft](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/96bf7c4e-955f-4e15-ba61-1b8ffcb19801)
-![sine_128_mydft](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/e7bd6830-563a-4863-8926-c3e4d3d2874a)
 ![lena_256_mydft](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/a3dcf65a-b958-498f-9524-e778a730d03e)
+![sine_128_mydft](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/e7bd6830-563a-4863-8926-c3e4d3d2874a)
 #### my own DCT subroutine
 ![rhombus_256_mydct](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/83b140f3-12f0-416a-ba65-d46e25c317a4)
-![sine_128_mydct](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/da59d103-387a-4b0e-a3e5-47716f08a8a2)
 ![lena_256_mydct](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/c8adfa6d-8b2e-4767-b999-b833572f8aba)
+![sine_128_mydct](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/da59d103-387a-4b0e-a3e5-47716f08a8a2)
 
 ### 5.2.1
 ### Use Butterworth LPF and Butterworth HPF with D0 = 5,20,50 and n= 1,2,3 respectively, and show the magnitude spectrum and output image produced by IDFT.
