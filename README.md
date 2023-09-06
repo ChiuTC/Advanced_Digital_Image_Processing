@@ -209,9 +209,9 @@ OpenCV version: 4.6.0 (Most of the code does't use OpenCV, only use c/c++ to imp
 #### cat_512
 ![cat_512_out](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/d0fac0a6-96da-4aab-90bd-cfb63a5b0be6)
 #### catch
-![catch_300x168_1](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/6f93a654-3bb1-432b-8ed8-9e31d3c56721)
+![catch_300x168_1](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/e9b96fe6-6056-4c3c-9107-d5644d8c6d7a)
 #### traffic
-![traffic_970x646_1](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/d2a78f2b-b0a6-4030-96e1-7eccca90f92a)
+![traffic_970x646_1](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/0963036a-f574-45a2-aee4-29ad7103cc82)
 ####  histogram matched image (using catch_300x168)
 ![cat_512_match_catch_cat](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/7b35ccc4-fe4c-4b65-a537-5510f919b24a)
 ####  histogram matched image (using traffic_970x646)
@@ -226,22 +226,6 @@ OpenCV version: 4.6.0 (Most of the code does't use OpenCV, only use c/c++ to imp
 ![histogram_of_cat_512_match_catch_cat](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/f25ab360-7274-4956-873a-ba1a951863b6)
 ####  histogram of histogram matched image (using traffic_970x646)
 ![histogram_of_cat_512_match_traffic](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/ffa31820-56e4-41a1-ba3d-27eea115cdec)
-
-
-
-
-
-
-
-
-![cat_512_synthesize](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/772dcfc8-2dc0-467d-a6ae-8f526bbe5ffe)
-![cat_512_equal](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/ce736805-1d61-433f-b2d3-1833e298e087)
-
-![traffic_970x646_equal](https://github.com/ChiuTC/Advanced_Digital_Image_Processing/assets/99594456/45047a5a-a970-41cd-916f-b9544a42470c)
-
-
-
-
 
 
 
