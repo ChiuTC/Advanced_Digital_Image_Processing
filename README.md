@@ -196,7 +196,7 @@ OpenCV version: 4.6.0 (Most of the code does't use OpenCV, only use c/c++ to imp
 ![histogram_of_meerkat_high_contrast](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/b377b58d-cd1c-4404-af01-3b95630a6d5b)
 
 ### 3.3.3
-#### Show the histogram matched images of cat_512.raw using catch_300x168.raw and traffic_970x646.raw as histogram specifications respectively, compare and analyze the histograms of cat_512.raw before and after matching
+### Show the histogram matched images of cat_512.raw using catch_300x168.raw and traffic_970x646.raw as histogram specifications respectively, compare and analyze the histograms of cat_512.raw before and after matching
 #### cat_512
 ![cat_512_out](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/5d8cd685-9dbb-4cf5-b581-342fe8cee293)
 #### catch
@@ -220,7 +220,7 @@ OpenCV version: 4.6.0 (Most of the code does't use OpenCV, only use c/c++ to imp
 
 ## ADIP_4 result:
 ### 4.1.1
-#### show and discuss the results of two different Laplacian filters. To generate the results, implement and compare the differences in the four border processing approaches taught in class.
+### show and discuss the results of two different Laplacian filters. To generate the results, implement and compare the differences in the four border processing approaches taught in class.
 #### original image and noise image
 ![roof_640x427_1](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/bae17eee-3832-47d3-a376-480ef540ab08)
 ![roof_640x427_noise_1](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/60d66e1c-a3da-4f33-bc00-c746d851061c)
@@ -255,7 +255,7 @@ OpenCV version: 4.6.0 (Most of the code does't use OpenCV, only use c/c++ to imp
 
 
 ### 4.1.2
-#### Display and analyze the results of the individual directional Sobel filters as well as the combined one.
+### Display and analyze the results of the individual directional Sobel filters as well as the combined one.
 #### original image 
 ![roof_640x427_1](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/bae17eee-3832-47d3-a376-480ef540ab08)
 #### Sobel Gy
@@ -278,7 +278,7 @@ OpenCV version: 4.6.0 (Most of the code does't use OpenCV, only use c/c++ to imp
 
 
 ### 4.2.1
-#### Use a 5x5 mean filter to filter these two images and determine whether or not the histograms of the filtered images remain the same.
+### Use a 5x5 mean filter to filter these two images and determine whether or not the histograms of the filtered images remain the same.
 #### original image 
 ![block white_256_1](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/0235e73e-e4d5-481d-a2a4-16cbc92c61c4)
 #### mean filter
@@ -306,7 +306,7 @@ OpenCV version: 4.6.0 (Most of the code does't use OpenCV, only use c/c++ to imp
 ![baboon_256_2_0_filter_5](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/1d91c396-3c4a-4ab8-b3ac-29f6ec27acd5)
 
 ### 4.2.3
-#### Use the methods to improve and sharpen the image.
+### Use the methods to improve and sharpen the image.
 #### original image 
 ![house_blur_noise_790x720_1](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/6e36f2cf-3a49-4418-854f-e068e5c1549d)
 #### mean filter
@@ -321,7 +321,7 @@ OpenCV version: 4.6.0 (Most of the code does't use OpenCV, only use c/c++ to imp
 ![house_blur_noise_790x720_median_sobel_match](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/bdbd4e0a-a890-44d4-a54b-8b13afee3797)
 
 ### 4.3
-#### Apply Local Histogram Equalization on tsukuba_683x512.raw, and process it with at least three different mask sizes.
+### Apply Local Histogram Equalization on tsukuba_683x512.raw, and process it with at least three different mask sizes.
 #### original image 
 ![tsukuba_683x512_1](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/1a3a7884-f55c-466f-83ed-45d115b984ae)
 #### Apply Local Histogram Equalization (mask size: 3x3)
@@ -336,6 +336,179 @@ OpenCV version: 4.6.0 (Most of the code does't use OpenCV, only use c/c++ to imp
 ![histogram of tsukuba_683x512_5](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/16280864-6650-49c6-92f1-a5e9412cffca)
 #### Histogram of image (mask size: 7x7)
 ![histogram of tsukuba_683x512_7](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/4315081e-a814-4b3e-aa5b-b0b56cf2753e)
+
+### 5.1.1
+### Write my own DFT subroutine and test it on images, Show the magnitude spectrum output. 
+#### original image 
+![rhombus_256_1](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/3e9801b7-aec3-4f4e-9dad-6aac92eb6a43)
+#### my own DFT subroutine
+![rhombus_256_mydft](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/96bf7c4e-955f-4e15-ba61-1b8ffcb19801)
+#### original image 
+![sine_128_1](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/6c06e1c5-77bb-4a28-bbaa-09c37d826416)
+#### my own DFT subroutine
+![sine_128_mydft](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/e7bd6830-563a-4863-8926-c3e4d3d2874a)
+#### original image 
+![lena_256_1](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/bc965bb3-f3f5-4afe-ae39-f018be97a469)
+#### my own DFT subroutine
+![lena_256_mydft](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/a3dcf65a-b958-498f-9524-e778a730d03e)
+
+
+### 5.1.2
+### Compare the output of Problem(1) with the output of the built-in DFT function on OpenCV. 
+
+#### my own DFT subroutine
+![rhombus_256_mydft](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/96bf7c4e-955f-4e15-ba61-1b8ffcb19801)
+![sine_128_mydft](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/e7bd6830-563a-4863-8926-c3e4d3d2874a)
+![lena_256_mydft](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/a3dcf65a-b958-498f-9524-e778a730d03e)
+#### Built-in DFT function on OpenCV
+![rhombus_256_mat_dft](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/17fbab86-3e05-461c-a48a-aec4ced43fb0)
+![sine_128_mat_dft](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/0e84a911-580a-4075-b33a-63291fd485fa)
+![lena_256_mat_dft](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/8c21fc72-2e26-4360-8d4b-e6959ada3f0b)
+
+### 5.1.3
+### Write my own IDFT subroutine and test it on DFT output in Problem 1.(1), show the images and compute the MSE between original images without transformation and the images that has been transformed by DFT+IDFT.
+
+#### original image 
+![rhombus_256_1](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/3e9801b7-aec3-4f4e-9dad-6aac92eb6a43)
+#### my own IDFT subroutine
+![rhombus_256_myidft](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/09174b34-87d2-45e1-b560-afa38352ba5c)
+#### original image 
+![sine_128_1](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/6c06e1c5-77bb-4a28-bbaa-09c37d826416)
+#### my own IDFT subroutine
+![sine_128_myidft](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/5fa78c9a-bd94-4137-8006-0fd8a312f7bb)
+#### original image 
+![lena_256_1](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/bc965bb3-f3f5-4afe-ae39-f018be97a469)
+#### my own IDFT subroutine
+![lena_256_myidft](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/a2f1e211-3ce8-4e39-b0b9-97a5cbeab2e7)
+
+
+### 5.1.4
+### Compare the output of Problem(3) with the output of the built-in IDFT function on OpenCV. 
+
+#### my own IDFT subroutine
+![rhombus_256_myidft](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/09174b34-87d2-45e1-b560-afa38352ba5c)
+![sine_128_myidft](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/5fa78c9a-bd94-4137-8006-0fd8a312f7bb)
+![lena_256_myidft](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/a2f1e211-3ce8-4e39-b0b9-97a5cbeab2e7)
+#### Built-in IDFT function on OpenCV
+![rhombus_256_mat_idft](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/9a8dd645-f523-4b4d-8cc5-41a339629117)
+![sine_128_mat_idft](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/a6465463-a46f-4b4f-81c8-54724bff001e)
+![lena_256_mat_idft](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/81691b06-3adb-427a-8f0b-f7b78a3d412c)
+
+### 5.1.5
+### Study DCT and implement it, and test it on images in (1). Display spectrum results and compare them to the DFT output.
+#### my own DFT subroutine
+![rhombus_256_mydft](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/96bf7c4e-955f-4e15-ba61-1b8ffcb19801)
+![sine_128_mydft](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/e7bd6830-563a-4863-8926-c3e4d3d2874a)
+![lena_256_mydft](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/a3dcf65a-b958-498f-9524-e778a730d03e)
+#### my own DCT subroutine
+![rhombus_256_mydct](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/83b140f3-12f0-416a-ba65-d46e25c317a4)
+![sine_128_mydct](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/da59d103-387a-4b0e-a3e5-47716f08a8a2)
+![lena_256_mydct](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/c8adfa6d-8b2e-4767-b999-b833572f8aba)
+
+### 5.2.1
+### Use Butterworth LPF and Butterworth HPF with D0 = 5,20,50 and n= 1,2,3 respectively, and show the magnitude spectrum and output image produced by IDFT.
+
+#### Butterworth LPF with D0 = 5,20,50 and n= 1,2,3 respectively.
+![raccoon_512_LPF_5_1](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/4eacdd2f-393d-4812-a542-bebf7db881b2)
+![raccoon_512_LPF_mag_5_1](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/4b28beea-aa35-40db-b285-28adab8d6009)
+![raccoon_512_LPF_5_2](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/d839b056-9946-466f-b6da-5a9e016a7566)
+![raccoon_512_LPF_mag_5_2](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/9b85577e-64d0-4b6f-bd29-119536db896c)
+![raccoon_512_LPF_5_3](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/17f91ad7-4764-4dce-9967-4c4d6c6d6e90)
+![raccoon_512_LPF_mag_5_3](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/86518467-ccaf-415f-9dec-c3c1032fd3d0)
+![raccoon_512_LPF_20_1](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/ef5b530d-5099-46e8-81f9-1b45c3cf1941)
+![raccoon_512_LPF_mag_20_1](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/cf188b64-42a2-4b70-920c-4f618d89c7da)
+![raccoon_512_LPF_20_2](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/a1c4cf6d-e44a-43cc-8491-4cd40a3e7250)
+![raccoon_512_LPF_mag_20_2](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/ab7963e6-28a7-43d7-b34c-cb1d34c34f80)
+![raccoon_512_LPF_20_3](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/4e763dcd-5f78-4f22-a2b4-97a2a4c39f2f)
+![raccoon_512_LPF_mag_20_3](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/3949fe02-c7dc-4587-95ab-fc5a6075d5f2)
+![raccoon_512_LPF_50_1](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/1b6afd00-e05d-43bf-af82-cbe565bcd8e5)
+![raccoon_512_LPF_mag_50_1](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/d2868eaa-1f1d-4952-8df5-e6ab94ea7048)
+![raccoon_512_LPF_50_2](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/39647d15-6052-41e6-a2b8-6a4db6f3b5df)
+![raccoon_512_LPF_mag_50_2](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/ff61fa83-fe48-454e-ad35-185ddd7688bc)
+![raccoon_512_LPF_50_3](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/7d1a420a-d204-45f9-823b-670281645666)
+![raccoon_512_LPF_mag_50_3](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/c34062e2-51d5-41a2-9433-3ecd25287072)
+#### Butterworth HPF with D0 = 5,20,50 and n= 1,2,3 respectively.
+![raccoon_512_HPF_5_1](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/44e6d1cd-4268-48d9-8a69-ee3faabff148)
+![raccoon_512_HPF_5_2](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/65b2ef09-ce29-4f4b-a9e3-e293fe8a1bf6)
+![raccoon_512_HPF_5_3](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/fe9fef84-6c6a-4532-affd-82647ad6e566)
+![raccoon_512_HPF_mag_5_1](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/6bd68020-9653-473d-b27d-f6c2069b3bda)
+![raccoon_512_HPF_mag_5_2](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/304e4477-228c-4aca-8378-252618b8e203)
+![raccoon_512_HPF_mag_5_3](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/931491eb-f65b-4959-8afe-2707d1e09498)
+![raccoon_512_HPF_20_1](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/24ccef4e-198f-419b-b7eb-b1ebd544a5a6)
+![raccoon_512_HPF_mag_20_1](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/2cc4154b-de8c-4d31-b6cf-3a51f0e955c0)
+![raccoon_512_HPF_20_2](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/500ea1b9-4f1f-47f9-8226-5912f0dfa80a)
+![raccoon_512_HPF_mag_20_2](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/7c274b94-b3cb-400a-ad4b-bb7d45ed22d7)
+![raccoon_512_HPF_20_3](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/53b55f4e-d704-43a4-880b-00fffe68af86)
+![raccoon_512_HPF_mag_20_3](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/43b8f0cd-eee0-4ad4-b680-b20d41ac2b07)
+![raccoon_512_HPF_50_1](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/f2499496-8b83-4dd1-85db-164a233bf4e4)
+![raccoon_512_HPF_mag_50_1](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/95517d1e-eac0-4c3a-8752-ff1fae1c45dc)
+![raccoon_512_HPF_50_2](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/08cce10f-271d-48bb-919d-638666cf050a)
+![raccoon_512_HPF_mag_50_2](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/30efce2f-395d-44f9-88f8-79393b32e2b4)
+![raccoon_512_HPF_50_3](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/166399ef-44cc-4882-8542-f0b10ba81b78)
+![raccoon_512_HPF_mag_50_3](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/062416dc-4648-4463-8abb-cf128dc06e54)
+### 5.2.2
+### Apply High-Frequency Emphasis Filtering to improve the high-frequency component of owl_blur_512.raw.
+#### original image 
+![owl_blur_512_1](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/0370ba92-e1c4-49c8-8d58-01abc3539285)
+#### Apply High-Frequency Emphasis Filtering
+![owl_blur_512_HFEmphasis](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/38f1b385-7d14-4935-8d8c-e1131cc9a55e)
+
+### 5.3.1
+### Use method i to add watermark to raccoon_512.raw, show the resulted magnitude spectrum and output image that resulted.
+#### method i
+![image](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/92921ca4-b0e2-4160-b43b-6e7d1b859a50)
+#### watermark image
+![mark_512_1](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/d16dd5c1-7364-4535-a7ec-6101792fed99)
+#### raccoon_512
+![raccoon_512_1](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/7b18391c-bea6-4c35-8f5a-ccf1f79f142a)
+#### use method i to add watermark to reccoon_512 
+![methodI_image](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/d35877b9-dffa-431c-b61c-97d06395442a)
+### magnitude spectrum
+![methodI spectrum magnitude](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/1562003b-0c49-4dce-bcbc-6c648b99824f)
+
+### 5.3.2
+### Use method ii to add watermark to raccoon_512.raw, show the resulted magnitude spectrum and output image that resulted.
+#### method ii
+![image](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/58cbf779-ae3d-43e9-b9b5-bee024b4dc66)
+#### watermark image
+![mark_512_1](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/d16dd5c1-7364-4535-a7ec-6101792fed99)
+#### raccoon_512
+![raccoon_512_1](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/7b18391c-bea6-4c35-8f5a-ccf1f79f142a)
+#### use method ii to add watermark to reccoon_512 
+![methodII_image](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/96db7a44-6e55-4198-829e-e0fbc58ba631)
+### magnitude spectrum
+![methodII spectrum magnitude](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/49865cce-1e35-493e-82cf-44663d0d6222)
+### 5.4
+### Apply a homomorphic filter to house_512.raw and experiment to find the best set
+#### homomorphic filter
+![house_HomomorphicFilter](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/b9d3712e-cd10-4e54-a797-73ee99dd86b9)
+#### histogram equalizaion
+![house_512_LocalHistogramEqu](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/150abe8a-aedd-482b-96de-df36da4a9079)
+#### local histogram equalizaion
+![house_512_HistogramEqu](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/2c2bc559-66b5-4b4d-b53f-fc7fead27d6c)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
