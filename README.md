@@ -1,5 +1,5 @@
 # Advanced Digital Image Processing   
-The implementation code for an assignment in the image processing algorithm course, and the resulting image is shown below.  
+The implementation code for the assignment in the image processing algorithm course, and the resulting image is shown below.  
 Development Environment:  
 Visual Studio 2022  
 OpenCV version: 4.6.0 (Most of the code does't use OpenCV, only use c/c++ to implement the algorithms)
