@@ -1,8 +1,6 @@
 # Advanced_Digital_Image_Processing  
+This is the implementation code for an assignment in the image processing algorithm course, and the resulting image is shown below
 
-
-
-  
 ## ADIP_1 result:
 
 ### 1.2.a 
