@@ -164,30 +164,30 @@
 #### image
 ![meerkat_dark_800x600](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/3853edbe-edf9-42a8-bfa0-bbd6a5401a22)
 #### histograms
-![meerkat_dark_hist_equal](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/d75697f2-3404-4117-90b9-253d2ebac31c)
+![histogram_of meerkat_dark_equal](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/dec46b14-ee06-4e9d-a28f-2795e3519eba)
 #### image
 ![meerkat_bright_800x600](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/6defdbe6-5a54-427c-ac8e-13a82caa0cf3)
 #### histograms
-![meerkat_bright_hist_equal](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/15e073ed-7135-4fa5-a6ee-0885eba95564)
+![histogram_of meerkat_bright_equal](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/eae0ec6a-781b-4ae2-8899-6f67ffee4a4b)
 #### image
 ![meerkat_high_contrast_800x600_1](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/56c3f465-8ba9-4b1c-9fb3-3246708e1135)
 #### histograms
-![meerkat_high_contrast_hist_equal](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/56cc62ce-7149-4ac6-b469-6354f701af68)
+![histogram_of meerkat_high_contrast_equal](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/a3277958-6c82-4cb0-a1b7-8134b0533641)
 
 ### 3.3.2
 ### Apply histogram equalization on the three images in 3.3.1 and plot their equalized histograms and compare the histograms before and after histogram equalization.
 #### dark image
 ![meerkat_dark_800x600](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/3853edbe-edf9-42a8-bfa0-bbd6a5401a22)
 #### histogram equalization
-![histogram_of meerkat_dark_equal](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/dec46b14-ee06-4e9d-a28f-2795e3519eba)
+![meerkat_dark_hist_equal](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/d75697f2-3404-4117-90b9-253d2ebac31c)
 #### bright image
 ![meerkat_bright_800x600](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/6defdbe6-5a54-427c-ac8e-13a82caa0cf3)
 #### histogram equalization
-![histogram_of meerkat_bright_equal](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/eae0ec6a-781b-4ae2-8899-6f67ffee4a4b)
+![meerkat_bright_hist_equal](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/15e073ed-7135-4fa5-a6ee-0885eba95564)
 #### high contrast image
 ![meerkat_high_contrast_800x600_1](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/56c3f465-8ba9-4b1c-9fb3-3246708e1135)
 #### histogram equalization
-![histogram_of meerkat_high_contrast_equal](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/a3277958-6c82-4cb0-a1b7-8134b0533641)
+![meerkat_high_contrast_hist_equal](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/56cc62ce-7149-4ac6-b469-6354f701af68)
 ####  histogram of dark image (after histogram equalization)
 ![histogram_of_meerkat_dark](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/fbd23af3-ac7b-4a3e-9b42-3495592a3b0a)
 ####  histogram of bright image (after histogram equalization)
