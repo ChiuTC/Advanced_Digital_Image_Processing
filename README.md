@@ -378,13 +378,13 @@ OpenCV version: 4.6.0 (Most of the code does't use OpenCV, only use c/c++ to imp
 #### my own IDFT subroutine
 ![rhombus_256_myidft](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/09174b34-87d2-45e1-b560-afa38352ba5c)
 #### original image 
-![sine_128_1](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/6c06e1c5-77bb-4a28-bbaa-09c37d826416)
-#### my own IDFT subroutine
-![sine_128_myidft](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/5fa78c9a-bd94-4137-8006-0fd8a312f7bb)
-#### original image 
 ![lena_256_1](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/bc965bb3-f3f5-4afe-ae39-f018be97a469)
 #### my own IDFT subroutine
 ![lena_256_myidft](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/a2f1e211-3ce8-4e39-b0b9-97a5cbeab2e7)
+#### original image 
+![sine_128_1](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/6c06e1c5-77bb-4a28-bbaa-09c37d826416)
+#### my own IDFT subroutine
+![sine_128_myidft](https://github.com/aFatHand/Advanced_Digital_Image_Processing/assets/99594456/5fa78c9a-bd94-4137-8006-0fd8a312f7bb)
 
 
 ### 5.1.4
