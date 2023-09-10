@@ -12,10 +12,10 @@ using namespace std;
 ImageIO imageIo;
 
 int main() {
-	//----------FILE©w¸q-------------
+	//----------FILEå®šç¾©-------------
 	FILE* file{};
 
-	//----------¹Ï¹³¤j¤p©w¸q-------------
+	//----------åœ–åƒå¤§å°å®šç¾©-------------
 	int image_size = 256 * 256;
 	int A1_img_size = 128 * 128;
 	int A2_img_size = 64 * 128;
@@ -26,7 +26,7 @@ int main() {
 	int j_img_size = 466 * 621;
 	int memory_size = image_size * sizeof(unsigned char);
 
-	//----------°t¸m°O¾ĞÅéªÅ¶¡-------------
+	//----------é…ç½®è¨˜æ†¶é«”ç©ºé–“-------------
 	unsigned char* lena = new unsigned char[memory_size];
 	unsigned char* lena_rotate = new unsigned char[memory_size];
 	unsigned char* lena_ver = new unsigned char[memory_size];
@@ -41,14 +41,14 @@ int main() {
 	unsigned char* lena_add_randomValue = new unsigned char[memory_size];
 	unsigned char* jackieChen = new unsigned char[j_img_size * sizeof(unsigned char)];
 
-	//----------¹Ï¤ùÅª¨ú-------------
-	lena = imageIo.input("./HM1_images_file/lena256.raw", image_size, memory_size, file);
-	A1 = imageIo.input("./HM1_images_file/A1.raw", A1_img_size, A1_img_size * sizeof(unsigned char), file);
-	A2 = imageIo.input("./HM1_images_file/A2.raw", A2_img_size, A2_img_size * sizeof(unsigned char), file);
-	A3 = imageIo.input("./HM1_images_file/A3.raw", A3_img_size, A3_img_size * sizeof(unsigned char), file);
-	A4 = imageIo.input("./HM1_images_file/A4.raw", A4_img_size, A4_img_size * sizeof(unsigned char), file);
-	A5 = imageIo.input("./HM1_images_file/A5.raw", A5_img_size, A5_img_size * sizeof(unsigned char), file);
-	jackieChen = imageIo.input("./HM1_images_file/JackieChen.raw", j_img_size, j_img_size * sizeof(unsigned char), file);
+	//----------åœ–ç‰‡è®€å–-------------
+	lena = imageIo.input("./HW1_images_file/lena256.raw", image_size, memory_size, file);
+	A1 = imageIo.input("./HW1_images_file/A1.raw", A1_img_size, A1_img_size * sizeof(unsigned char), file);
+	A2 = imageIo.input("./HW1_images_file/A2.raw", A2_img_size, A2_img_size * sizeof(unsigned char), file);
+	A3 = imageIo.input("./HW1_images_file/A3.raw", A3_img_size, A3_img_size * sizeof(unsigned char), file);
+	A4 = imageIo.input("./HW1_images_file/A4.raw", A4_img_size, A4_img_size * sizeof(unsigned char), file);
+	A5 = imageIo.input("./HW1_images_file/A5.raw", A5_img_size, A5_img_size * sizeof(unsigned char), file);
+	jackieChen = imageIo.input("./HW1_images_file/JackieChen.raw", j_img_size, j_img_size * sizeof(unsigned char), file);
 
 	HW1_1_2_a_b_c_d hw1_1_2(lena);
 	HW1_1_2_e hw1_1_2_e;
